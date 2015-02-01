@@ -1,0 +1,31 @@
+$orange-dark-darkPrimaryColor:   #E64A19;
+$orange-primaryColor:       	 #FF5722;
+$orange-light-lightPrimaryColor: #FFCCBC;
+
+$white-textPrimaryColor:         #FFFFFF;
+$blue-accentColor:               #03A9F4;
+$red-alertColor:			     #e51c23;
+$green-successColor: 			 #259b24;
+
+$darkest-primaryTextColor:       #212121;
+$lighter-secondaryTextColor:     #727272;
+$lightest-dividerColor:          #B6B6B6;
+
+
+
+.top-bar
+{
+	background-color: $orange-primaryColor;
+}
+
+.global-nav .button
+{
+
+}
+
+.global-nav-button
+{
+	margin-left: 15px;
+	color: $white-textPrimaryColor;
+
+}
