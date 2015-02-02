@@ -526,7 +526,7 @@ body {
   color: #222;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Roboto", sans-serif, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -2134,7 +2134,7 @@ button, .button {
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Roboto", sans-serif, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -2803,7 +2803,7 @@ select {
   border-color: #cccccc;
   padding: 0.5rem;
   font-size: 0.875rem;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Roboto", sans-serif, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   color: rgba(0, 0, 0, 0.75);
   line-height: normal;
   border-radius: 0;
@@ -3208,7 +3208,7 @@ meta.foundation-mq-topbar {
   color: #FFFFFF;
   padding: 12px 0 12px 0;
   padding-left: 0.9375rem;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Roboto", sans-serif, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 0.8125rem;
   font-weight: normal;
   text-transform: none;
@@ -5003,7 +5003,7 @@ meta.foundation-mq-topbar {
   color: #EEEEEE;
   font-weight: normal;
   font-size: 1rem;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Roboto", sans-serif, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
 
 /* line 2822, ../scss/_foundation.scss */
@@ -5014,7 +5014,7 @@ meta.foundation-mq-topbar {
   color: #333333;
   font-weight: normal;
   font-size: 2rem;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Roboto", sans-serif, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
 
 /* line 2830, ../scss/_foundation.scss */
@@ -5771,7 +5771,7 @@ meta.foundation-mq-topbar {
   background-color: #EFEFEF;
   color: #222222;
   padding: 1rem 2rem;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Roboto", sans-serif, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1rem;
 }
 
@@ -5964,7 +5964,7 @@ ul.pagination li {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: outside;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Roboto", sans-serif, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
 
 /* line 3365, ../scss/_foundation.scss */
@@ -5992,7 +5992,7 @@ ul.pagination li {
 .side-nav li.active > a:first-child:not(.button) {
   color: #1cc7ff;
   font-weight: normal;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Roboto", sans-serif, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
 
 /* line 3381, ../scss/_foundation.scss */
@@ -6045,7 +6045,7 @@ ul.pagination li {
   color: #222222;
   padding: 1rem;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Roboto", sans-serif, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1rem;
 }
 
@@ -6366,7 +6366,7 @@ p aside {
 /* Default header styles */
 /* line 3603, ../scss/_foundation.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Roboto", sans-serif, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #222222;
@@ -7603,7 +7603,7 @@ dialog[open] {
   display: inline;
   margin-left: 1rem;
   margin-bottom: 0;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Roboto", sans-serif, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-size: 0.875rem;
   color: #999999;
@@ -7860,7 +7860,7 @@ dialog[open] {
 /* line 4563, ../scss/_foundation.scss */
 .label {
   font-weight: normal;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Roboto", sans-serif, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -10375,13 +10375,157 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* line 17, ../scss/_custom.scss */
-.top-bar {
+/* line 18, ../scss/_custom.scss */
+.logo-link .logo-main {
+  font-weight: 100;
+}
+/* line 23, ../scss/_custom.scss */
+.logo-link .logo-secondary {
+  font-weight: 100;
+}
+
+/* line 29, ../scss/_custom.scss */
+main {
+  margin-top: 2vh;
+}
+
+/* line 34, ../scss/_custom.scss */
+h1 {
+  color: #212121;
+}
+
+/* line 39, ../scss/_custom.scss */
+.global-nav {
   background-color: #ff5722;
 }
 
-/* line 27, ../scss/_custom.scss */
+/* line 44, ../scss/_custom.scss */
 .global-nav-button {
-  margin-left: 15px;
   color: white;
+  padding: 0 12px;
+  transition: background-color .25s ease;
+  background-color: #ff5722;
+  font-weight: 100;
+}
+
+/* line 53, ../scss/_custom.scss */
+.global-nav-button:hover {
+  transition: background-color .25s ease;
+  background-color: #e64a19;
+  color: white;
+}
+
+/* line 60, ../scss/_custom.scss */
+.global-nav-button:active {
+  transition: background-color .25s ease;
+  background-color: #e64a19;
+  color: white;
+}
+
+/* line 67, ../scss/_custom.scss */
+label {
+  font-weight: bold;
+  color: #212121;
+}
+
+/* line 73, ../scss/_custom.scss */
+.image1 {
+  height: 20vh;
+  width: 100%;
+}
+
+/* line 79, ../scss/_custom.scss */
+input[type="text"], input[type="email"], select {
+  border: none;
+  border-bottom: 2px solid #b6b6b6;
+  box-shadow: none;
+  padding-left: 0;
+  background: none;
+}
+
+/* line 88, ../scss/_custom.scss */
+input[type="text"]:focus {
+  color: red;
+}
+
+/* line 93, ../scss/_custom.scss */
+select {
+  color: #979797;
+  color: rgba(182, 182, 182, 0);
+  text-shadow: 0 0 0 #979797;
+  font-weight: bold;
+}
+
+/* line 101, ../scss/_custom.scss */
+select:hover {
+  background: none;
+}
+
+/* line 106, ../scss/_custom.scss */
+input[type="text"]:focus, input[type="email"]:focus, select:focus {
+  border: none;
+  border-bottom: 2px solid #ff5722;
+  box-shadow: none;
+  background: none;
+}
+
+/* line 115, ../scss/_custom.scss */
+.panel {
+  background-color: white;
+  border-radius: .3em;
+  box-shadow: 0px 1px 1px #ccc;
+}
+
+/* line 122, ../scss/_custom.scss */
+.button {
+  transition: background-color .75s easy, color .75s ease;
+  color: white;
+  background-color: #ff5722;
+}
+
+/* line 130, ../scss/_custom.scss */
+.button:hover, .button:focus {
+  transition: background-color .75s easy, color .75s ease;
+  color: white;
+  background-color: #e64a19;
+}
+
+/* line 138, ../scss/_custom.scss */
+.button:active {
+  color: #e64a19;
+  background-color: white;
+}
+
+/* line 145, ../scss/_custom.scss */
+.item-list {
+  list-style-type: none;
+  margin-left: 0;
+}
+/* line 150, ../scss/_custom.scss */
+.item-list li {
+  padding: 12px 0;
+  margin: 0;
+  border-bottom: 2px solid #b6b6b6;
+  display: inline-block;
+  width: 100%;
+}
+/* line 159, ../scss/_custom.scss */
+.item-list .item-name {
+  font-weight: 100;
+}
+/* line 164, ../scss/_custom.scss */
+.item-list .item-price {
+  font-weight: bold;
+}
+
+/* line 170, ../scss/_custom.scss */
+input[type="checkbox"] {
+  padding: 0;
+  margin: 0;
+  appearance: none;
+}
+
+/* line 176, ../scss/_custom.scss */
+.switch input:checked + label {
+  background: none repeat scroll 0% 0% #ff5722;
 }

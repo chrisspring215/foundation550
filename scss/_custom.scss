@@ -11,21 +11,168 @@ $darkest-primaryTextColor:       #212121;
 $lighter-secondaryTextColor:     #727272;
 $lightest-dividerColor:          #B6B6B6;
 
+.logo-link
+{
 
+	.logo-main
+	{
+	font-weight: 100;
+	}
 
-.top-bar
+	.logo-secondary
+	{
+		font-weight: 100;
+	}
+}
+
+main
+{
+	margin-top: 2vh;
+}
+
+h1
+{
+	color: $darkest-primaryTextColor;
+}
+
+.global-nav
 {
 	background-color: $orange-primaryColor;
 }
 
-.global-nav .button
+.global-nav-button
 {
+	color: $white-textPrimaryColor;
+	padding: 0 12px;
+	transition: background-color .25s ease;
+	background-color: $orange-primaryColor;
+	font-weight: 100;
+}
+
+.global-nav-button:hover
+{
+	transition: background-color .25s ease;
+	background-color: $orange-dark-darkPrimaryColor;
+	color: $white-textPrimaryColor;
+}
+
+.global-nav-button:active
+{
+	transition: background-color .25s ease;
+	background-color: $orange-dark-darkPrimaryColor;
+	color: $white-textPrimaryColor;
+}
+
+label
+{
+	font-weight: bold;
+	color: $darkest-primaryTextColor;
+}
+
+.image1
+{
+	height: 20vh;
+	width: 100%;
+}
+
+input[type="text"], input[type="email"], select
+{
+	border: none;
+	border-bottom: 2px solid $lightest-dividerColor;
+	box-shadow: none;
+	padding-left: 0;
+	background: none;
+}
+
+input[type="text"]:focus
+{
+	color:red;
+}
+
+select
+{
+	color: #979797;
+  color: rgba(182,182,182,0);
+  text-shadow: 0 0 0 #979797;
+  font-weight: bold;
+}
+
+select:hover
+{
+	background: none;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, select:focus
+	{
+		border: none;
+		border-bottom: 2px solid $orange-primaryColor;
+		box-shadow: none;
+		background: none;
+
+	}
+
+.panel
+{
+	background-color: $white-textPrimaryColor;
+	border-radius: .3em;
+	box-shadow: 0px 1px 1px #ccc;
+}
+
+.button
+{
+	transition: background-color .75s easy, color .75s ease;
+	color: $white-textPrimaryColor;
+	background-color: $orange-primaryColor;
 
 }
 
-.global-nav-button
+.button:hover, .button:focus
 {
-	margin-left: 15px;
-	color: $white-textPrimaryColor;
+	transition: background-color .75s easy, color .75s ease;
 
+	color: $white-textPrimaryColor;
+	background-color: $orange-dark-darkPrimaryColor;
+}
+
+.button:active
+{
+	color: $orange-dark-darkPrimaryColor;
+	background-color: $white-textPrimaryColor;
+
+}
+
+.item-list
+{
+	list-style-type: none;
+	margin-left: 0;
+
+	li
+	{
+		padding: 12px 0;
+		margin: 0;
+		border-bottom: 2px solid $lightest-dividerColor;
+		display: inline-block;
+		width: 100%;
+	}
+
+	.item-name
+	{
+		font-weight: 100;
+	}
+
+	.item-price
+	{
+		font-weight: bold;
+	}
+}
+
+input[type="checkbox"]
+{
+	padding: 0;
+	margin: 0;
+	appearance: none;
+}
+
+.switch input:checked + label {
+    background: none repeat scroll 0% 0% $orange-primaryColor;
 }
