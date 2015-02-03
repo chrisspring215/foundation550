@@ -11,6 +11,55 @@ $darkest-primaryTextColor:       #212121;
 $lighter-secondaryTextColor:     #727272;
 $lightest-dividerColor:          #B6B6B6;
 
+@-webkit-keyframes displayNone {
+  0%   { opacity: 1; }
+  75%  { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-moz-keyframes displayNone {
+  0%   { opacity: 1; }
+  75%  { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-o-keyframes displayNone {
+  0%   { opacity: 1; }
+  75%  { opacity: 1; }
+  100% { opacity: 0; }
+}
+@keyframes displayNone {
+  0%   { opacity: 1; }
+  75%  { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.cover-screen
+{
+	height: 100vh;
+	width: 100vw;
+	background-color: #ccc;
+	position: absolute;
+	z-index: 10;
+	background-position: center;
+	margin: 0;
+	padding: 0;
+
+	background: url(../img/jetti-logo-200x200-72pdi.png) no-repeat center center;
+	background-color: rgba(0, 0, 0, .75);
+
+	display: block;
+
+	-webkit-animation: displayNone 2s; /* Safari 4+ */
+  	-moz-animation:    displayNone 2s; /* Fx 5+ */
+  	-o-animation:      displayNone 2s; /* Opera 12+ */
+  	animation:         displayNone 2s; /* IE 10+, Fx 29+ */
+}
+
+.cover-screen
+{
+	opacity: .0;
+}
+
+
 .logo-link
 {
 
@@ -69,13 +118,43 @@ label
 	color: $darkest-primaryTextColor;
 }
 
+.image
+{
+
+}
+
 .image1
 {
 	height: 20vh;
 	width: 100%;
+	position: relative; 
+   	width: 100%; /* for IE 6 */
+
 }
 
-input[type="text"], input[type="email"], select
+.affil-name
+{
+	position: absolute; 
+   top: 50px; 
+   left: 0.9375rem; 
+   width: 100%;
+   color: $white-textPrimaryColor;
+}
+
+.affil-location
+{
+	color: $white-textPrimaryColor;
+	position: absolute; 
+   top: 80px; 
+   left: 0.9375rem; 
+   width: 100%;
+   font-weight: 100;
+
+}
+
+
+
+input[type="text"], input[type="email"], input[type="password"], input[type="number"], select
 {
 	border: none;
 	border-bottom: 2px solid $lightest-dividerColor;
@@ -84,9 +163,8 @@ input[type="text"], input[type="email"], select
 	background: none;
 }
 
-input[type="text"]:focus
-{
-	color:red;
+input[type=number] {
+    -webkit-text-security: disc;
 }
 
 select
@@ -102,14 +180,14 @@ select:hover
 	background: none;
 }
 
-input[type="text"]:focus, input[type="email"]:focus, select:focus
-	{
-		border: none;
-		border-bottom: 2px solid $orange-primaryColor;
-		box-shadow: none;
-		background: none;
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, input[type="number"]:focus, select:focus
+{
+	border: none;
+	border-bottom: 2px solid $orange-primaryColor;
+	box-shadow: none;
+	background: none;
 
-	}
+}
 
 .panel
 {
@@ -164,6 +242,12 @@ input[type="text"]:focus, input[type="email"]:focus, select:focus
 	{
 		font-weight: bold;
 	}
+
+	.reedem-button
+	{
+		margin-bottom: 0;
+		padding: .3em .6em;
+	}
 }
 
 input[type="checkbox"]
@@ -176,3 +260,25 @@ input[type="checkbox"]
 .switch input:checked + label {
     background: none repeat scroll 0% 0% $orange-primaryColor;
 }
+
+.server-prompt
+{
+	color: $orange-primaryColor;
+}
+
+
+
+.your-points
+{
+	color: $orange-primaryColor;
+	font-weight: 500;
+
+	padding: .3em .4em;
+}
+
+
+
+
+
+
+
