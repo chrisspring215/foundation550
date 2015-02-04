@@ -10379,16 +10379,19 @@ th.hide-for-touch {
   /* line 15, ../scss/_custom.scss */
   0% {
     opacity: 1;
+    height: 100vh;
   }
 
   /* line 16, ../scss/_custom.scss */
   75% {
     opacity: 1;
+    height: 100vh;
   }
 
   /* line 17, ../scss/_custom.scss */
   100% {
     opacity: 0;
+    height: 0vh;
   }
 }
 
@@ -10396,16 +10399,19 @@ th.hide-for-touch {
   /* line 20, ../scss/_custom.scss */
   0% {
     opacity: 1;
+    height: 100vh;
   }
 
   /* line 21, ../scss/_custom.scss */
   75% {
     opacity: 1;
+    height: 100vh;
   }
 
   /* line 22, ../scss/_custom.scss */
   100% {
     opacity: 0;
+    height: 0vh;
   }
 }
 
@@ -10413,16 +10419,19 @@ th.hide-for-touch {
   /* line 25, ../scss/_custom.scss */
   0% {
     opacity: 1;
+    height: 100vh;
   }
 
   /* line 26, ../scss/_custom.scss */
   75% {
     opacity: 1;
+    height: 100vh;
   }
 
   /* line 27, ../scss/_custom.scss */
   100% {
     opacity: 0;
+    height: 0vh;
   }
 }
 
@@ -10430,22 +10439,24 @@ th.hide-for-touch {
   /* line 30, ../scss/_custom.scss */
   0% {
     opacity: 1;
+    height: 100vh;
   }
 
   /* line 31, ../scss/_custom.scss */
   75% {
     opacity: 1;
+    height: 100vh;
   }
 
   /* line 32, ../scss/_custom.scss */
   100% {
     opacity: 0;
+    height: 0vh;
   }
 }
 
 /* line 38, ../scss/_custom.scss */
 .cover-screen {
-  height: 100vh;
   width: 100vw;
   background-color: #ccc;
   position: absolute;
