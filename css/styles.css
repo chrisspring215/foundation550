@@ -10455,18 +10455,16 @@ th.hide-for-touch {
   }
 }
 
-/* line 38, ../scss/_custom.scss */
-.cover-screen {
+/* line 36, ../scss/_custom.scss */
+.cover-screen, .rewards-message {
   width: 100vw;
-  background-color: #ccc;
   position: absolute;
   z-index: 10;
   background-position: center;
   margin: 0;
   padding: 0;
-  background: url(../img/jetti-logo-200x200-72pdi.png) no-repeat center center;
-  background-color: rgba(0, 0, 0, 0.85);
   display: block;
+  height: 0vh;
   -webkit-animation: displayNone 4s;
   /* Safari 4+ */
   -moz-animation: displayNone 4s;
@@ -10477,7 +10475,13 @@ th.hide-for-touch {
   /* IE 10+, Fx 29+ */
 }
 
-/* line 60, ../scss/_custom.scss */
+/* line 54, ../scss/_custom.scss */
+.cover-screen {
+  opacity: .0;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+/* line 59, ../scss/_custom.scss */
 .rewards-message {
   opacity: 1;
   display: block;
@@ -10490,48 +10494,43 @@ th.hide-for-touch {
   line-height: 1.2em;
 }
 
-/* line 73, ../scss/_custom.scss */
-.cover-screen {
-  opacity: .0;
-}
-
-/* line 79, ../scss/_custom.scss */
+/* line 75, ../scss/_custom.scss */
 .log-in-page-spacer {
   padding-top: 12vh;
 }
 
-/* line 84, ../scss/_custom.scss */
+/* line 80, ../scss/_custom.scss */
 .welcome-page-text-flare {
   color: #ff5722;
   font-style: italic;
   font-weight: bold;
 }
 
-/* line 94, ../scss/_custom.scss */
+/* line 90, ../scss/_custom.scss */
 .logo-link .logo-main {
   font-weight: 100;
 }
-/* line 99, ../scss/_custom.scss */
+/* line 95, ../scss/_custom.scss */
 .logo-link .logo-secondary {
   font-weight: 100;
 }
 
-/* line 105, ../scss/_custom.scss */
+/* line 101, ../scss/_custom.scss */
 main {
   margin-top: 2vh;
 }
 
-/* line 110, ../scss/_custom.scss */
+/* line 106, ../scss/_custom.scss */
 h1, h2, h3, p {
   color: #212121;
 }
 
-/* line 115, ../scss/_custom.scss */
+/* line 111, ../scss/_custom.scss */
 .global-nav {
   background-color: #ff5722;
 }
 
-/* line 120, ../scss/_custom.scss */
+/* line 116, ../scss/_custom.scss */
 .global-nav-button {
   color: white;
   padding: 0 12px;
@@ -10540,27 +10539,27 @@ h1, h2, h3, p {
   font-weight: 100;
 }
 
-/* line 129, ../scss/_custom.scss */
+/* line 125, ../scss/_custom.scss */
 .global-nav-button:hover {
   transition: background-color .25s ease;
   background-color: #e64a19;
   color: white;
 }
 
-/* line 136, ../scss/_custom.scss */
+/* line 132, ../scss/_custom.scss */
 .global-nav-button:active {
   transition: background-color .25s ease;
   background-color: #e64a19;
   color: white;
 }
 
-/* line 143, ../scss/_custom.scss */
+/* line 139, ../scss/_custom.scss */
 label {
   font-weight: bold;
   color: #212121;
 }
 
-/* line 154, ../scss/_custom.scss */
+/* line 147, ../scss/_custom.scss */
 .image1 {
   height: 20vh;
   width: 100%;
@@ -10569,7 +10568,7 @@ label {
   /* for IE 6 */
 }
 
-/* line 163, ../scss/_custom.scss */
+/* line 156, ../scss/_custom.scss */
 .affil-name {
   position: absolute;
   top: 50px;
@@ -10578,7 +10577,7 @@ label {
   color: white;
 }
 
-/* line 173, ../scss/_custom.scss */
+/* line 166, ../scss/_custom.scss */
 .affil-location {
   color: white;
   position: absolute;
@@ -10588,7 +10587,7 @@ label {
   font-weight: 100;
 }
 
-/* line 187, ../scss/_custom.scss */
+/* line 180, ../scss/_custom.scss */
 input[type="text"], input[type="email"], input[type="password"], input[type="number"], select {
   border: none;
   border-bottom: 2px solid #b6b6b6;
@@ -10597,12 +10596,12 @@ input[type="text"], input[type="email"], input[type="password"], input[type="num
   background: none;
 }
 
-/* line 195, ../scss/_custom.scss */
+/* line 188, ../scss/_custom.scss */
 input[type=number] {
   -webkit-text-security: disc;
 }
 
-/* line 200, ../scss/_custom.scss */
+/* line 193, ../scss/_custom.scss */
 select {
   color: #979797;
   color: rgba(182, 182, 182, 0);
@@ -10610,12 +10609,12 @@ select {
   font-weight: bold;
 }
 
-/* line 208, ../scss/_custom.scss */
+/* line 201, ../scss/_custom.scss */
 select:hover {
   background: none;
 }
 
-/* line 213, ../scss/_custom.scss */
+/* line 206, ../scss/_custom.scss */
 input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, input[type="number"]:focus, select:focus {
   border: none;
   border-bottom: 2px solid #ff5722;
@@ -10623,39 +10622,39 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
   background: none;
 }
 
-/* line 222, ../scss/_custom.scss */
+/* line 215, ../scss/_custom.scss */
 .panel {
   background-color: white;
   border-radius: .3em;
   box-shadow: 0px 1px 1px #ccc;
 }
 
-/* line 229, ../scss/_custom.scss */
+/* line 222, ../scss/_custom.scss */
 .button {
   transition: background-color .75s easy, color .75s ease;
   color: white;
   background-color: #ff5722;
 }
 
-/* line 237, ../scss/_custom.scss */
+/* line 230, ../scss/_custom.scss */
 .button:hover, .button:focus {
   transition: background-color .75s easy, color .75s ease;
   color: white;
   background-color: #e64a19;
 }
 
-/* line 245, ../scss/_custom.scss */
+/* line 238, ../scss/_custom.scss */
 .button:active {
   color: #e64a19;
   background-color: white;
 }
 
-/* line 252, ../scss/_custom.scss */
+/* line 245, ../scss/_custom.scss */
 .item-list {
   list-style-type: none;
   margin-left: 0;
 }
-/* line 257, ../scss/_custom.scss */
+/* line 250, ../scss/_custom.scss */
 .item-list li {
   padding: 12px 0;
   margin: 0;
@@ -10663,40 +10662,81 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
   display: inline-block;
   width: 100%;
 }
-/* line 266, ../scss/_custom.scss */
+/* line 259, ../scss/_custom.scss */
 .item-list .item-name {
-  font-weight: 100;
+  font-weight: 500;
+  padding-top: 3em;
+  font-variant: small-caps;
+  font-style: italic;
 }
-/* line 271, ../scss/_custom.scss */
+/* line 267, ../scss/_custom.scss */
 .item-list .item-price {
   font-weight: bold;
+  font-size: .9em;
+  border: 1px solid #ff5722;
+  border-radius: .2em;
+  padding: .3em .4em .2em 0em;
 }
-/* line 276, ../scss/_custom.scss */
+/* line 275, ../scss/_custom.scss */
+.item-list .item-price .view-item-button {
+  background-color: #ff5722;
+  color: white;
+  padding: .3em .4em .2em .4em;
+}
+/* line 283, ../scss/_custom.scss */
 .item-list .reedem-button {
   margin-bottom: 0;
   padding: .3em .6em;
 }
+/* line 292, ../scss/_custom.scss */
+.item-list .select-button {
+  vertical-align: middle;
+  line-height: 1em;
+}
+/* line 298, ../scss/_custom.scss */
+.item-list .points-cost {
+  font-weight: bold;
+}
+/* line 303, ../scss/_custom.scss */
+.item-list .reward-reedem-button {
+  padding: .4em .6em;
+  margin-bottom: 0;
+}
 
-/* line 283, ../scss/_custom.scss */
+/* line 312, ../scss/_custom.scss */
 input[type="checkbox"] {
   padding: 0;
   margin: 0;
   appearance: none;
 }
 
-/* line 289, ../scss/_custom.scss */
+/* line 318, ../scss/_custom.scss */
 .switch input:checked + label {
   background: none repeat scroll 0% 0% #ff5722;
 }
 
-/* line 294, ../scss/_custom.scss */
+/* line 323, ../scss/_custom.scss */
 .server-prompt {
   color: #ff5722;
 }
 
-/* line 301, ../scss/_custom.scss */
+/* line 330, ../scss/_custom.scss */
 .your-points {
   color: #ff5722;
   font-weight: 500;
   padding: .3em .4em;
+}
+
+/* line 340, ../scss/_custom.scss */
+.item-modal .modalImage {
+  margin-bottom: 1em;
+  padding: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+/* line 349, ../scss/_custom.scss */
+.item-modal .modalContent {
+  position: relative;
+  margin-top: 40vh;
 }

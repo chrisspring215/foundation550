@@ -32,28 +32,27 @@ $lightest-dividerColor:          #B6B6B6;
   100% { opacity: 0; height: 0vh}
 }
 
-
-
-.cover-screen,
+.cover-screen, .rewards-message
 {
 
 	width: 100vw;
-	background-color: #ccc;
 	position: absolute;
 	z-index: 10;
 	background-position: center;
 	margin: 0;
 	padding: 0;
-
-	background: url(../img/jetti-logo-200x200-72pdi.png) no-repeat center center;
-	background-color: rgba(0, 0, 0, .85);
-
 	display: block;
+	height: 0vh;
 
 	-webkit-animation: displayNone 4s; /* Safari 4+ */
   	-moz-animation:    displayNone 4s; /* Fx 5+ */
   	-o-animation:      displayNone 4s; /* Opera 12+ */
   	animation:         displayNone 4s; /* IE 10+, Fx 29+ */
+}
+
+.cover-screen
+{
+	opacity: .0;background-color: rgba(0, 0, 0, .65);
 }
 
  .rewards-message
@@ -69,10 +68,7 @@ $lightest-dividerColor:          #B6B6B6;
  	line-height: 1.2em;
  }
 
-.cover-screen
-{
-	opacity: .0;
-}
+
 
 
 .log-in-page-spacer
@@ -145,10 +141,7 @@ label
 	color: $darkest-primaryTextColor;
 }
 
-.image
-{
 
-}
 
 .image1
 {
@@ -264,20 +257,56 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 	.item-name
 	{
-		font-weight: 100;
+		font-weight: 500;
+		padding-top:3em;
+		font-variant: small-caps;
+		font-style: italic;
 	}
 
 	.item-price
 	{
 		font-weight: bold;
+		font-size: .9em;
+		border: 1px solid $orange-primaryColor;
+		border-radius: .2em;
+		padding: .3em .4em .2em 0em;
+
+		.view-item-button
+		{
+			background-color: $orange-primaryColor;
+			color: $white-textPrimaryColor;
+			padding: .3em .4em .2em .4em;
+		}
 	}
 
 	.reedem-button
 	{
 		margin-bottom: 0;
 		padding: .3em .6em;
+
+	}
+
+	
+
+	.select-button
+	{
+		vertical-align: middle;
+		line-height: 1em;
+	}
+
+	.points-cost
+	{
+		font-weight: bold;
+	}
+
+	.reward-reedem-button
+	{
+		padding: .4em .6em;
+		margin-bottom: 0;
 	}
 }
+
+
 
 input[type="checkbox"]
 {
@@ -305,7 +334,23 @@ input[type="checkbox"]
 	padding: .3em .4em;
 }
 
+.item-modal
+{
+	.modalImage
+	{
+		margin-bottom: 1em;
+		padding: 0;
+		top: 0;
+		left: 0;
+		position: absolute;
+	}
 
+	.modalContent
+	{
+		position: relative;
+		margin-top: 40vh;
+	}
+}
 
 
 
