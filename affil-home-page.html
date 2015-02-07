@@ -6,41 +6,28 @@
     <title>RENAME PAGE</title>
     <link rel="stylesheet" href="css/styles.css" />
     <script src="js/vendor/modernizr.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
   </head>
   <body>
 
     <nav class="global-nav top-bar" data-topbar role="navigation">
+      <a class="left global-nav-button logo" href="">Jetti</a>
       <a class="right global-nav-button" href="">Profile</a>
-      <a class="right global-nav-button" href="">History</a>
-      <a class="right global-nav-button" href="">Points</a>
       <a class="right global-nav-button" href="">Places</a>
     </nav>
-
- 
-    <div class="image">
-      <img class="image1" src="img/restaurant.jpg">
-
-      <h2 class="affil-name">Restaurant 16</h2>
-
-      <h4 class="affil-location">Ypsilanti, MI</h4>
-
-    </div>
 
     <main>
       <div class="row">
         <div class="small-12 columns">
-            <h3>Earn points for your purchase of these items:</h3>
+            <h3>Earn points on your purchase.</h3>
             <ul class="item-list">
 
               <li>
                 <div class="row collapse">
-                  
-                  <div class="small-12 columns">
-                    <span class="item-name">Cheesy Spinach Lasagna</span>
-                  </div>
 
                   <div class="small-10 columns">
-                    <span class="item-price center"><a href="" data-reveal-id="modal1stItem" class="view-item-button">view</a>&nbsp;&nbsp;25pts</span>
+                    <span class="item-name"><a data-reveal-id="modal1">Cheesy Spinach Lasagna</a> - 25pts</span>
                   </div>
 
                   <div class="small-2 columns text-right">
@@ -49,51 +36,57 @@
                       <label for="exampleRadioSwitch1"></label>
                     </div>
                   </div>
-
                 </div>
               </li>
 
               <li>
                 <div class="row collapse">
-                  
-                  <div class="small-12 columns">
-                    <span class="item-name">Personal Margherita Pizza</span>
-                  </div>
 
                   <div class="small-10 columns">
-                    <span class="item-price center"><a href="" data-reveal-id="modal2ndItem"  class="view-item-button">view</a>&nbsp;&nbsp;15pts</span>
+                    <span class="item-name"><a  data-reveal-id="modal2">Personal Margherita Pizza</a> - 15pts</span>
                   </div>
 
                   <div class="small-2 columns text-right">
                     <div class="switch tiny round select-button">
-                      <input id="exampleRadioSwitch2" type="radio" checked name="testGroup">
+                      <input id="exampleRadioSwitch2" type="radio" name="testGroup">
                       <label for="exampleRadioSwitch2"></label>
                     </div>
                   </div>
-
                 </div>
               </li>
 
               <li>
                 <div class="row collapse">
-                  
-                  <div class="small-12 columns">
-                    <span class="item-name">Melanzane Alla Parmigiana</span>
-                  </div>
 
                   <div class="small-10 columns">
-                    <span class="item-price center"><a href="" data-reveal-id="modal3rdItem"  class="view-item-button">view</a>&nbsp;&nbsp;25pts</span>
+                    <span class="item-name"><a data-reveal-id="modal3">Melanzane Alla Parmigiana</a> - 10pts</span>
                   </div>
 
                   <div class="small-2 columns text-right">
                     <div class="switch tiny round select-button">
-                      <input id="exampleRadioSwitch3" type="radio" checked name="testGroup">
+                      <input id="exampleRadioSwitch3" type="radio" name="testGroup">
                       <label for="exampleRadioSwitch3"></label>
                     </div>
                   </div>
-
                 </div>
               </li>
+
+              <li>
+                <div class="row collapse">
+
+                  <div class="small-10 columns">
+                    <span class="item-name">Other - 5pts</span>
+                  </div>
+
+                  <div class="small-2 columns text-right">
+                    <div class="switch tiny round select-button">
+                      <input id="exampleRadioSwitch4" type="radio" name="testGroup">
+                      <label for="exampleRadioSwitch4"></label>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
 
             </ul>
 
@@ -106,7 +99,7 @@
     </main>
 
     <!-- Modals -->
-    <div id="modal1stItem" class="reveal-modal item-modal" data-reveal>
+    <div id="modal1" class="reveal-modal item-modal" data-reveal>
       <img class="modalImage" src="img/item1.jpg">
       <div class="modalContent text-center">
         <h2>Cheesy Spinach Lasagna</h2>
@@ -117,7 +110,7 @@
       <a class="close-reveal-modal">&#215;</a>
     </div>
 
-    <div id="modal2ndItem" class="reveal-modal item-modal" data-reveal>
+    <div id="modal2" class="reveal-modal item-modal" data-reveal>
       <img class="modalImage" src="img/item2.jpg">
       <div class="modalContent text-center">
         <h2>Personal Margherita Pizza</h2>
@@ -128,7 +121,7 @@
       <a class="close-reveal-modal">&#215;</a>
     </div>
 
-    <div id="modal3rdItem" class="reveal-modal item-modal" data-reveal>
+    <div id="modal3" class="reveal-modal item-modal" data-reveal>
       <img class="modalImage" src="img/item3.jpg">
       <div class="modalContent text-center">
         <h2>Melanzane Alla Parmigiana</h2>
