@@ -146,7 +146,13 @@ label
 	color: $darkest-primaryTextColor;
 }
 
-
+.image
+{
+	height: 72px;
+	background: url(../img/background.jpg);
+	background-color: $orange-dark-darkPrimaryColor;
+	background-blend-mode: multiply;
+}
 
 .image1
 {
@@ -339,10 +345,9 @@ input[type="checkbox"]
 
 .your-points
 {
-	color: $orange-primaryColor;
-	font-weight: 500;
-
-	padding: .3em .4em;
+	color: $white-textPrimaryColor;
+	font-weight: bold;
+	font-style: italic;
 }
 
 .item-modal
@@ -390,5 +395,29 @@ input[type="checkbox"]
 }
 
 
+.progress
+{
+	padding-bottom: 1.25em;
+	margin-top: .5em;
+	margin-bottom: 0em;
+	background-color: $lighter-secondaryTextColor + 50;
+	border: none;
+	.meter
+	{
+		color: $white-textPrimaryColor;
+		padding-left: .5em;
+		padding-bottom: 1.75em;
+		font-size: .75em;
+		margin-top: 0;
+	}
+	.meter
+	{
+		background: blue;
+	}
+}
 
+.progress.alert .meter
+{
+	background: $orange-primaryColor
+}
 
