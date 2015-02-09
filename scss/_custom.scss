@@ -3,11 +3,11 @@ $orange-primaryColor:       	 #FF5722;
 $orange-light-lightPrimaryColor: #FFCCBC;
 
 $white-textPrimaryColor:         #FFFFFF;
-$blue-accentColor:               #03A9F4;
+$blue-accentColor:               #FF9800;
 $red-alertColor:			     #e51c23;
 $green-successColor: 			 #259b24;
 
-$darkest-primaryTextColor:       #212121;
+$darkest-primaryTextColor:       #444;
 $lighter-secondaryTextColor:     #727272;
 $lightest-dividerColor:          #B6B6B6;
 
@@ -156,7 +156,9 @@ label
 .image
 {
 	height: 72px;
+
 	background-color: $orange-dark-darkPrimaryColor;
+
 	background-blend-mode: multiply;
 }
 
@@ -324,8 +326,9 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 	.reward-reedem-button
 	{
-		padding: .4em .6em;
+		padding: .5em .6em .3em .6em;
 		margin-bottom: 0;
+		text-transform: uppercase;
 	}
 }
 
@@ -358,20 +361,7 @@ input[type="checkbox"]
 
 .item-modal
 {
-	.modalImage
-	{
-		margin-bottom: 1em;
-		padding: 0;
-		top: 0;
-		left: 0;
-		position: absolute;
-	}
-
-	.modalContent
-	{
-		position: relative;
-		margin-top: 40vh;
-	}
+	
 }
 
 .item-redeemed
@@ -412,18 +402,29 @@ input[type="checkbox"]
 	{
 		color: $white-textPrimaryColor;
 		padding-left: .5em;
-		padding-bottom: 1.75em;
+		padding-top: .15em;
+		padding-bottom: 1.6em;
 		font-size: .75em;
 		margin-top: 0;
+		font-weight: bold;
 	}
-	.meter
-	{
-		background: blue;
-	}
+
 }
 
 .progress.alert .meter
 {
 	background: $orange-primaryColor
+}
+
+.button.disabled
+{
+	background-color: $darkest-primaryTextColor;
+	opacity: .20;
+}
+
+.button.disabled:hover
+{
+	background-color: $darkest-primaryTextColor;
+	opacity: .20;
 }
 

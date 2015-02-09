@@ -10533,7 +10533,7 @@ main {
 
 /* line 118, ../scss/_custom.scss */
 h1, h2, h3, p {
-  color: #212121;
+  color: #444444;
 }
 
 /* line 123, ../scss/_custom.scss */
@@ -10567,7 +10567,7 @@ h1, h2, h3, p {
 /* line 151, ../scss/_custom.scss */
 label {
   font-weight: bold;
-  color: #212121;
+  color: #444444;
 }
 
 /* line 157, ../scss/_custom.scss */
@@ -10577,7 +10577,7 @@ label {
   background-blend-mode: multiply;
 }
 
-/* line 164, ../scss/_custom.scss */
+/* line 166, ../scss/_custom.scss */
 .image1 {
   height: 20vh;
   width: 100%;
@@ -10586,7 +10586,7 @@ label {
   /* for IE 6 */
 }
 
-/* line 173, ../scss/_custom.scss */
+/* line 175, ../scss/_custom.scss */
 .affil-name {
   position: absolute;
   top: 50px;
@@ -10595,7 +10595,7 @@ label {
   color: white;
 }
 
-/* line 183, ../scss/_custom.scss */
+/* line 185, ../scss/_custom.scss */
 .affil-location {
   color: white;
   position: absolute;
@@ -10605,7 +10605,7 @@ label {
   font-weight: 100;
 }
 
-/* line 197, ../scss/_custom.scss */
+/* line 199, ../scss/_custom.scss */
 input[type="text"], input[type="email"], input[type="password"], input[type="number"], select {
   border: none;
   border-bottom: 2px solid #b6b6b6;
@@ -10614,12 +10614,12 @@ input[type="text"], input[type="email"], input[type="password"], input[type="num
   background: none;
 }
 
-/* line 205, ../scss/_custom.scss */
+/* line 207, ../scss/_custom.scss */
 input[type=number] {
   -webkit-text-security: disc;
 }
 
-/* line 210, ../scss/_custom.scss */
+/* line 212, ../scss/_custom.scss */
 select {
   color: #979797;
   color: rgba(182, 182, 182, 0);
@@ -10627,12 +10627,12 @@ select {
   font-weight: bold;
 }
 
-/* line 218, ../scss/_custom.scss */
+/* line 220, ../scss/_custom.scss */
 select:hover {
   background: none;
 }
 
-/* line 223, ../scss/_custom.scss */
+/* line 225, ../scss/_custom.scss */
 input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, input[type="number"]:focus, select:focus {
   border: none;
   border-bottom: 2px solid #ff5722;
@@ -10640,39 +10640,39 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
   background: none;
 }
 
-/* line 232, ../scss/_custom.scss */
+/* line 234, ../scss/_custom.scss */
 .panel {
   background-color: white;
   border-radius: .3em;
   box-shadow: 0px 1px 1px #ccc;
 }
 
-/* line 239, ../scss/_custom.scss */
+/* line 241, ../scss/_custom.scss */
 .button {
   transition: background-color .75s easy, color .75s ease;
   color: white;
   background-color: #ff5722;
 }
 
-/* line 247, ../scss/_custom.scss */
+/* line 249, ../scss/_custom.scss */
 .button:hover, .button:focus {
   transition: background-color .75s easy, color .75s ease;
   color: white;
   background-color: #e64a19;
 }
 
-/* line 255, ../scss/_custom.scss */
+/* line 257, ../scss/_custom.scss */
 .button:active {
   color: #e64a19;
   background-color: white;
 }
 
-/* line 262, ../scss/_custom.scss */
+/* line 264, ../scss/_custom.scss */
 .item-list {
   list-style-type: none;
   margin-left: 0;
 }
-/* line 267, ../scss/_custom.scss */
+/* line 269, ../scss/_custom.scss */
 .item-list li {
   padding: 12px 0;
   margin: 0;
@@ -10680,19 +10680,19 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
   display: inline-block;
   width: 100%;
 }
-/* line 276, ../scss/_custom.scss */
+/* line 278, ../scss/_custom.scss */
 .item-list .item-name {
   font-weight: 500;
   padding-top: 3em;
   font-style: italic;
 }
-/* line 282, ../scss/_custom.scss */
+/* line 284, ../scss/_custom.scss */
 .item-list .item-name a {
   color: #ff5722;
   padding: .5em 0;
   font-weight: bold;
 }
-/* line 290, ../scss/_custom.scss */
+/* line 292, ../scss/_custom.scss */
 .item-list .item-price {
   font-weight: bold;
   font-size: .9em;
@@ -10700,85 +10700,72 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
   border-radius: .2em;
   padding: .3em .4em .2em 0em;
 }
-/* line 298, ../scss/_custom.scss */
+/* line 300, ../scss/_custom.scss */
 .item-list .item-price .view-item-button {
   background-color: #ff5722;
   color: white;
   padding: .3em .4em .2em .4em;
 }
-/* line 306, ../scss/_custom.scss */
+/* line 308, ../scss/_custom.scss */
 .item-list .reedem-button {
   margin-bottom: 0;
   padding: .3em .6em;
 }
-/* line 315, ../scss/_custom.scss */
+/* line 317, ../scss/_custom.scss */
 .item-list .select-button {
   vertical-align: middle;
   line-height: 1em;
 }
-/* line 321, ../scss/_custom.scss */
+/* line 323, ../scss/_custom.scss */
 .item-list .points-cost {
   font-weight: bold;
 }
-/* line 326, ../scss/_custom.scss */
+/* line 328, ../scss/_custom.scss */
 .item-list .reward-reedem-button {
-  padding: .4em .6em;
+  padding: .5em .6em .3em .6em;
   margin-bottom: 0;
+  text-transform: uppercase;
 }
 
-/* line 335, ../scss/_custom.scss */
+/* line 338, ../scss/_custom.scss */
 input[type="checkbox"] {
   padding: 0;
   margin: 0;
   appearance: none;
 }
 
-/* line 341, ../scss/_custom.scss */
+/* line 344, ../scss/_custom.scss */
 .switch input:checked + label {
   background: none repeat scroll 0% 0% #ff5722;
 }
 
-/* line 346, ../scss/_custom.scss */
+/* line 349, ../scss/_custom.scss */
 .server-prompt {
   color: #ff5722;
 }
 
-/* line 353, ../scss/_custom.scss */
+/* line 356, ../scss/_custom.scss */
 .your-points {
   color: white;
   font-weight: bold;
   font-style: italic;
 }
 
-/* line 362, ../scss/_custom.scss */
-.item-modal .modalImage {
-  margin-bottom: 1em;
-  padding: 0;
-  top: 0;
-  left: 0;
-  position: absolute;
-}
-/* line 371, ../scss/_custom.scss */
-.item-modal .modalContent {
-  position: relative;
-  margin-top: 40vh;
-}
-
-/* line 378, ../scss/_custom.scss */
+/* line 368, ../scss/_custom.scss */
 .item-redeemed {
   color: #ff5722;
   font-weight: bold;
 }
 
-/* line 384, ../scss/_custom.scss */
+/* line 374, ../scss/_custom.scss */
 .share-section {
   height: 21vh;
 }
-/* line 389, ../scss/_custom.scss */
+/* line 379, ../scss/_custom.scss */
 .share-section .share-section-block {
   line-height: 10vh;
 }
-/* line 393, ../scss/_custom.scss */
+/* line 383, ../scss/_custom.scss */
 .share-section .share-section-block img {
   vertical-align: middle;
   display: inline-block;
@@ -10787,7 +10774,7 @@ input[type="checkbox"] {
   width: auto;
 }
 
-/* line 405, ../scss/_custom.scss */
+/* line 395, ../scss/_custom.scss */
 .progress {
   padding-bottom: 1.25em;
   margin-top: .5em;
@@ -10795,20 +10782,30 @@ input[type="checkbox"] {
   background-color: #a4a4a4;
   border: none;
 }
-/* line 412, ../scss/_custom.scss */
+/* line 402, ../scss/_custom.scss */
 .progress .meter {
   color: white;
   padding-left: .5em;
-  padding-bottom: 1.75em;
+  padding-top: .15em;
+  padding-bottom: 1.6em;
   font-size: .75em;
   margin-top: 0;
+  font-weight: bold;
 }
+
+/* line 415, ../scss/_custom.scss */
+.progress.alert .meter {
+  background: #ff5722;
+}
+
 /* line 420, ../scss/_custom.scss */
-.progress .meter {
-  background: blue;
+.button.disabled {
+  background-color: #444444;
+  opacity: .20;
 }
 
 /* line 426, ../scss/_custom.scss */
-.progress.alert .meter {
-  background: #ff5722;
+.button.disabled:hover {
+  background-color: #444444;
+  opacity: .20;
 }
