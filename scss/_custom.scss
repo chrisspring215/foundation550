@@ -32,6 +32,20 @@ $lightest-dividerColor:          #B6B6B6;
   100% { opacity: 0; height: 0vh}
 }
 
+.index-background
+{
+
+	margin: 0;
+	height: 100vh;
+
+}
+
+.main-welcome
+{
+	font-weight: bold;
+
+}
+
 .logo
 {
 	font-family: $logo-font;
@@ -74,13 +88,6 @@ $lightest-dividerColor:          #B6B6B6;
  }
 
 
-
-
-.log-in-page-spacer
-{
-	padding-top: 12vh;
-}
-
 .welcome-page-text-flare
 {
 	color: $orange-primaryColor;
@@ -104,7 +111,7 @@ $lightest-dividerColor:          #B6B6B6;
 
 main
 {
-	margin-top: 2vh;
+	margin-top: 1vh;
 }
 
 h1, h2, h3, p
@@ -149,7 +156,6 @@ label
 .image
 {
 	height: 72px;
-	background: url(../img/background.jpg);
 	background-color: $orange-dark-darkPrimaryColor;
 	background-blend-mode: multiply;
 }
