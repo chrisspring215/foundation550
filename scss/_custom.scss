@@ -156,10 +156,11 @@ label
 .image
 {
 	height: 72px;
-
+	background: url(../img/backpat.png);
 	background-color: $orange-dark-darkPrimaryColor;
 
 	background-blend-mode: multiply;
+	-webkit-background-blend-mode: multiply;
 }
 
 .image1
