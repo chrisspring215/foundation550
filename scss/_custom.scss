@@ -37,6 +37,16 @@ $lightest-dividerColor:          #B6B6B6;
 
 	margin: 0;
 	height: 100vh;
+	background: url(../img/homepage-background.png)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  h1, p, label
+  {
+  	color: $white-textPrimaryColor;
+  }
 
 }
 
@@ -111,7 +121,12 @@ $lightest-dividerColor:          #B6B6B6;
 
 main
 {
-	margin-top: 1vh;
+	margin-top: 1.5vh;
+
+	h3
+	{
+		margin-bottom: 0;
+	}
 }
 
 h1, h2, h3, p
@@ -361,8 +376,65 @@ input[type="checkbox"]
 }
 
 .item-modal
-{
-	
+{	
+	padding:0;
+	margin: 0;
+
+
+	img
+	{
+		width: 100vw;
+		padding:0;
+		margin: 0;
+	}
+
+	h3, h4, p, .button
+	{
+		margin-left: 4vw;
+		margin-right: 4vw;
+	}
+
+	h3
+	{
+		margin-top: 4vw;
+	}
+
+	h4
+	{
+		color: $orange-primaryColor;
+		font-size: 4vw;
+		font-weight: 800;
+		margin-bottom:1vw;
+	}
+
+	.button
+	{
+		transition: background-color .75s easy, color .75s ease;
+		color: $white-textPrimaryColor;
+		background-color: $orange-primaryColor;
+	}
+
+	.button:hover, .button:focus
+	{
+		transition: background-color .75s easy, color .75s ease;
+		color: $white-textPrimaryColor;
+		background-color: $orange-dark-darkPrimaryColor;
+	}
+
+	.button:active
+	{
+		color: $orange-dark-darkPrimaryColor;
+		background-color: $white-textPrimaryColor;
+	}
+
+	.close-reveal-modal
+	{
+		font-size: 6vw;
+		padding: 2vw 4vw;
+		color: $white-textPrimaryColor;
+		background-color: $orange-primaryColor;
+		font-weight: 200;
+	}
 }
 
 .item-redeemed
