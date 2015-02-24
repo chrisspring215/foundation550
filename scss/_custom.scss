@@ -34,17 +34,25 @@ $lightest-dividerColor:          #B6B6B6;
 
 .index-background
 {
-
 	margin: 0;
-	height: 100vh;
-
+	height: 93vh;
+	background: url(../img/home-page-background.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #666;
+	background-blend-mode: overlay;
+	-webkit-background-blend-mode: overlay;
+	
+	.main-welcome, p, label
+	{
+		font-weight: bold;
+		color: $white-textPrimaryColor;
+	}
 }
 
-.main-welcome
-{
-	font-weight: bold;
 
-}
 
 .logo
 {
@@ -111,7 +119,39 @@ $lightest-dividerColor:          #B6B6B6;
 
 main
 {
-	margin-top: 1vh;
+	margin-top: 2vh;
+
+	.meal-nav
+	{
+		display: block;
+		padding-top: 1.5vh;
+		padding-bottom: 7vh;
+
+		.small-4 columns
+		{
+			margin: 0;
+			padding: 0;
+		}
+
+		a
+		{
+			border: 2px solid $orange-dark-darkPrimaryColor;
+			display: block;
+			width: 100%;
+			font-size: 3vw;
+			text-transform: uppercase;
+			font-weight: bold;
+			color: $orange-primaryColor;
+			padding-top: .5em;
+			padding-bottom: .5em;
+		}
+
+		.active
+		{
+			background-color:$orange-dark-darkPrimaryColor ;
+			color: $white-textPrimaryColor;
+		}
+	}
 }
 
 h1, h2, h3, p
@@ -236,6 +276,12 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	background-color: $white-textPrimaryColor;
 	border-radius: .3em;
 	box-shadow: 0px 1px 1px #ccc;
+
+	.point-total
+	{
+		color: $orange-primaryColor;
+		font-weight: bold;
+	}
 }
 
 .button
@@ -266,6 +312,12 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	list-style-type: none;
 	margin-left: 0;
 
+	.view-icon
+	{
+		height:4vw;
+		margin-top: -.25em;
+	}
+
 	li
 	{
 		padding: 12px 0;
@@ -275,35 +327,35 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 		width: 100%;
 	}
 
-	.item-name
+	a
 	{
 		font-weight: 500;
 		padding-top:3em;
 		font-style: italic;
 
-		a
+		.item-name
 		{
 			color: $orange-primaryColor;
 			padding: .5em 0;
 			font-weight: bold;
 		}
-	}
 
-	.item-price
-	{
-		font-weight: bold;
-		font-size: .9em;
-		border: 1px solid $orange-primaryColor;
-		border-radius: .2em;
-		padding: .3em .4em .2em 0em;
-
-		.view-item-button
+		.item-price
 		{
-			background-color: $orange-primaryColor;
-			color: $white-textPrimaryColor;
-			padding: .3em .4em .2em .4em;
+			font-weight: bold;
+			font-size: .9em;
+			color: $darkest-primaryTextColor;
+
+			.view-item-button
+			{
+				background-color: $orange-primaryColor;
+				color: $white-textPrimaryColor;
+				padding: .3em .4em .2em .4em;
+			}
 		}
 	}
+
+
 
 	.reedem-button
 	{
@@ -362,7 +414,22 @@ input[type="checkbox"]
 
 .item-modal
 {
-	
+	padding: 0;
+	.item-modal-content
+	{
+		padding: 1.875rem;
+	}
+
+	.pairing-title
+	{
+		color: $orange-primaryColor;
+		font-weight: 800;
+	}
+
+	.close-reveal-modal
+	{
+		color: $white-textPrimaryColor
+	}
 }
 
 .item-redeemed
@@ -428,4 +495,7 @@ input[type="checkbox"]
 	background-color: $darkest-primaryTextColor;
 	opacity: .20;
 }
+
+
+
 

@@ -4056,6 +4056,7 @@ blockquote p {
         right: 0;
         margin: 0 auto; } }
   .reveal-modal .close-reveal-modal, dialog .close-reveal-modal {
+    /* Chris
     font-size: 2.5rem;
     line-height: 1;
     position: absolute;
@@ -4063,7 +4064,8 @@ blockquote p {
     right: 1.375rem;
     color: #AAAAAA;
     font-weight: bold;
-    cursor: pointer; }
+    cursor: pointer;
+  */}
 
 dialog {
   display: none; }

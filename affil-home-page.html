@@ -26,21 +26,35 @@
     </div>
     
     <main>
+      <div class="row collapse">
+        <div class="meal-nav ">
+          <div class="small-4 columns text-center">
+            <a href="" class="active">appetizers</a>
+          </div>
+          <div class="small-4 columns text-center">
+            <a href="">entrees</a>
+          </div>
+          <div class="small-4 columns text-center">
+            <a href="">deserts</a>
+          </div>
+        </div>
+      </div>
       <div class="row">
         <div class="small-12 columns">
-            <h3>Earn points on your purchase.</h3>
+          
+            <h3>Earn points on an appetizer.</h3>
             <ul class="item-list">
 
               <li>
                 <div class="row collapse">
 
                   <div class="small-10 columns">
-                    <span class="item-name"><a data-reveal-id="modal1">Red Rock Style Mac 'N Cheese</a> - 20pts</span>
+                    <a data-reveal-id="modal1"><span class="item-name">Item <img class="view-icon" src="img/view-icon.svg"> <span class="item-price">- 20pts</span></span></a>
                   </div>
 
                   <div class="small-2 columns text-right">
                     <div class="switch tiny round select-button">
-                      <input id="exampleRadioSwitch1" type="radio" checked name="testGroup">
+                      <input id="exampleRadioSwitch1" type="radio"  name="testGroup">
                       <label for="exampleRadioSwitch1"></label>
                     </div>
                   </div>
@@ -51,12 +65,12 @@
                 <div class="row collapse">
 
                   <div class="small-10 columns">
-                    <span class="item-name"><a  data-reveal-id="modal2">Pimento Sandwich</a> - 15pts</span>
+                    <a data-reveal-id="modal1"><span class="item-name">Item <img class="view-icon" src="img/view-icon.svg"> <span class="item-price">- 15pts</span></span></a>
                   </div>
 
                   <div class="small-2 columns text-right">
                     <div class="switch tiny round select-button">
-                      <input id="exampleRadioSwitch2" type="radio" name="testGroup">
+                      <input  id="exampleRadioSwitch2" type="radio" name="testGroup">
                       <label for="exampleRadioSwitch2"></label>
                     </div>
                   </div>
@@ -67,7 +81,7 @@
                 <div class="row collapse">
 
                   <div class="small-10 columns">
-                    <span class="item-name"><a data-reveal-id="modal3">Rib Tips</a> - 10pts</span>
+                    <a data-reveal-id="modal1"><span class="item-name">Item <img class="view-icon" src="img/view-icon.svg"> <span class="item-price">- 10pts</span></span></a>
                   </div>
 
                   <div class="small-2 columns text-right">
@@ -83,12 +97,12 @@
                 <div class="row collapse">
 
                   <div class="small-10 columns">
-                    <span class="item-name">Other - 5pts</span>
+                    <span class="item-name">Not today</span>
                   </div>
 
                   <div class="small-2 columns text-right">
                     <div class="switch tiny round select-button">
-                      <input id="exampleRadioSwitch4" type="radio" name="testGroup">
+                      <input checked id="exampleRadioSwitch4" type="radio" name="testGroup">
                       <label for="exampleRadioSwitch4"></label>
                     </div>
                   </div>
@@ -97,7 +111,10 @@
             </ul>       
         </div>
         <div class="small-12 columns">
-          <a class="button expand" href="points-server-redemption.html">GET POINTS</a>
+          <a class="button expand" href="affil-home-page-2.html">Next</a>
+        </div>
+        <div class="small-12 columns">
+          <p><i>* Don't worry; you can still get points just for checking in.</i></p>
         </div>
       </div>
     </main>
@@ -113,12 +130,16 @@
 
     <!-- Modals -->
     <div id="modal1" class="reveal-modal item-modal" data-reveal>
-      <img src="img/">
-      <h1>Hello</h1>
-
-      
-      <a class="close-reveal-modal">&#215;</a>
+      <img src="img/food-item.png">
+      <div class="item-modal-content">
+        <h3>Red Rock Style Mac &amp; Cheese</h3>
+        <p>Cavatappi macaroni and pulled pork tossed in our three cheese, alfredo blend. 16</p>
+        <h5 class="pairing-title">Pairings:</h5>
+        <p>Bell's Two Hearted</p>
+        <a class="button expand close-reveal-modal">BACK</a>
+      </div>
     </div>
+
 
 
 
