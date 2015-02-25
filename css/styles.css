@@ -10377,7 +10377,7 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* line 18, ../scss/_custom.scss */
+/* line 15, ../scss/_custom.scss */
 .index-background {
   margin: 0;
   padding-top: 4vh;
@@ -10387,51 +10387,52 @@ th.hide-for-touch {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-color: #444;
+  background-color: #333;
   background-blend-mode: overlay;
   -webkit-background-blend-mode: overlay;
 }
-/* line 32, ../scss/_custom.scss */
+/* line 29, ../scss/_custom.scss */
 .index-background .main-welcome, .index-background p, .index-background label {
   font-weight: bold;
   color: white;
 }
-/* line 38, ../scss/_custom.scss */
+/* line 35, ../scss/_custom.scss */
 .index-background .main-welcome {
   font-size: 9vw;
-  line-height: 9.5vw;
+  line-height: 10vw;
+  text-align: bottom;
 }
-/* line 44, ../scss/_custom.scss */
+/* line 42, ../scss/_custom.scss */
 .index-background p {
   margin-top: 6vw;
 }
 
-/* line 52, ../scss/_custom.scss */
+/* line 48, ../scss/_custom.scss */
 .logo {
   font-family: "Sansita One", cursive;
 }
 
 @-webkit-keyframes displayNone {
-  /* line 57, ../scss/_custom.scss */
+  /* line 53, ../scss/_custom.scss */
   0% {
     opacity: 1;
     height: 100vh;
     width: 100%;
   }
 
-  /* line 58, ../scss/_custom.scss */
+  /* line 54, ../scss/_custom.scss */
   75% {
     opacity: 1;
     height: 100vh;
     width: 100%;
   }
 
-  /* line 59, ../scss/_custom.scss */
+  /* line 55, ../scss/_custom.scss */
   99% {
     width: 100%;
   }
 
-  /* line 60, ../scss/_custom.scss */
+  /* line 56, ../scss/_custom.scss */
   100% {
     opacity: 0;
     height: 0vh;
@@ -10440,26 +10441,26 @@ th.hide-for-touch {
 }
 
 @-moz-keyframes displayNone {
-  /* line 63, ../scss/_custom.scss */
+  /* line 59, ../scss/_custom.scss */
   0% {
     opacity: 1;
     height: 100vh;
     width: 100%;
   }
 
-  /* line 64, ../scss/_custom.scss */
+  /* line 60, ../scss/_custom.scss */
   75% {
     opacity: 1;
     height: 100vh;
     width: 100%;
   }
 
-  /* line 65, ../scss/_custom.scss */
+  /* line 61, ../scss/_custom.scss */
   99% {
     width: 100%;
   }
 
-  /* line 66, ../scss/_custom.scss */
+  /* line 62, ../scss/_custom.scss */
   100% {
     opacity: 0;
     height: 0vh;
@@ -10468,26 +10469,26 @@ th.hide-for-touch {
 }
 
 @-o-keyframes displayNone {
-  /* line 69, ../scss/_custom.scss */
+  /* line 65, ../scss/_custom.scss */
   0% {
     opacity: 1;
     height: 100vh;
     width: 100%;
   }
 
-  /* line 70, ../scss/_custom.scss */
+  /* line 66, ../scss/_custom.scss */
   75% {
     opacity: 1;
     height: 100vh;
     width: 100%;
   }
 
-  /* line 71, ../scss/_custom.scss */
+  /* line 67, ../scss/_custom.scss */
   99% {
     width: 100%;
   }
 
-  /* line 72, ../scss/_custom.scss */
+  /* line 68, ../scss/_custom.scss */
   100% {
     opacity: 0;
     height: 0vh;
@@ -10496,26 +10497,26 @@ th.hide-for-touch {
 }
 
 @keyframes displayNone {
-  /* line 75, ../scss/_custom.scss */
+  /* line 71, ../scss/_custom.scss */
   0% {
     opacity: 1;
     height: 100vh;
     width: 100%;
   }
 
-  /* line 76, ../scss/_custom.scss */
+  /* line 72, ../scss/_custom.scss */
   75% {
     opacity: 1;
     height: 100vh;
     width: 100%;
   }
 
-  /* line 77, ../scss/_custom.scss */
+  /* line 73, ../scss/_custom.scss */
   99% {
     width: 100%;
   }
 
-  /* line 78, ../scss/_custom.scss */
+  /* line 74, ../scss/_custom.scss */
   100% {
     opacity: 0;
     height: 0vh;
@@ -10523,7 +10524,7 @@ th.hide-for-touch {
   }
 }
 
-/* line 82, ../scss/_custom.scss */
+/* line 78, ../scss/_custom.scss */
 .cover-screen, .rewards-message {
   position: absolute;
   z-index: 10;
@@ -10542,13 +10543,13 @@ th.hide-for-touch {
   /* IE 10+, Fx 29+ */
 }
 
-/* line 101, ../scss/_custom.scss */
+/* line 93, ../scss/_custom.scss */
 .cover-screen {
   opacity: .0;
   background-color: rgba(0, 0, 0, 0.65);
 }
 
-/* line 106, ../scss/_custom.scss */
+/* line 98, ../scss/_custom.scss */
 .rewards-message {
   opacity: 1;
   display: block;
@@ -10561,38 +10562,38 @@ th.hide-for-touch {
   line-height: 1.2em;
 }
 
-/* line 120, ../scss/_custom.scss */
+/* line 112, ../scss/_custom.scss */
 .welcome-page-text-flare {
   color: #ff5722;
   font-style: italic;
   font-weight: bold;
 }
 
-/* line 130, ../scss/_custom.scss */
+/* line 121, ../scss/_custom.scss */
 .logo-link .logo-main {
   font-weight: 100;
 }
-/* line 135, ../scss/_custom.scss */
+/* line 126, ../scss/_custom.scss */
 .logo-link .logo-secondary {
   font-weight: 100;
 }
 
-/* line 141, ../scss/_custom.scss */
+/* line 132, ../scss/_custom.scss */
 main {
   margin-top: 2vh;
 }
-/* line 145, ../scss/_custom.scss */
+/* line 136, ../scss/_custom.scss */
 main .meal-nav {
   display: block;
   padding-top: 1.5vh;
   padding-bottom: 7vh;
 }
-/* line 151, ../scss/_custom.scss */
+/* line 142, ../scss/_custom.scss */
 main .meal-nav .small-4 columns {
   margin: 0;
   padding: 0;
 }
-/* line 157, ../scss/_custom.scss */
+/* line 148, ../scss/_custom.scss */
 main .meal-nav a {
   border: 2px solid #e64a19;
   display: block;
@@ -10604,23 +10605,23 @@ main .meal-nav a {
   padding-top: .5em;
   padding-bottom: .5em;
 }
-/* line 170, ../scss/_custom.scss */
+/* line 161, ../scss/_custom.scss */
 main .meal-nav .active {
   background-color: #e64a19;
   color: white;
 }
 
-/* line 178, ../scss/_custom.scss */
+/* line 169, ../scss/_custom.scss */
 h1, h2, h3, p {
   color: #444444;
 }
 
-/* line 183, ../scss/_custom.scss */
+/* line 174, ../scss/_custom.scss */
 .global-nav {
   background-color: #ff5722;
 }
 
-/* line 188, ../scss/_custom.scss */
+/* line 179, ../scss/_custom.scss */
 .global-nav-button {
   color: white;
   padding: 0 12px;
@@ -10629,27 +10630,27 @@ h1, h2, h3, p {
   font-weight: 100;
 }
 
-/* line 197, ../scss/_custom.scss */
+/* line 188, ../scss/_custom.scss */
 .global-nav-button:hover {
   transition: background-color .25s ease;
   background-color: #e64a19;
   color: white;
 }
 
-/* line 204, ../scss/_custom.scss */
+/* line 195, ../scss/_custom.scss */
 .global-nav-button:active {
   transition: background-color .25s ease;
   background-color: #e64a19;
   color: white;
 }
 
-/* line 211, ../scss/_custom.scss */
+/* line 202, ../scss/_custom.scss */
 label {
   font-weight: bold;
   color: #444444;
 }
 
-/* line 217, ../scss/_custom.scss */
+/* line 208, ../scss/_custom.scss */
 .image {
   height: 72px;
   background: url(../img/backpat.png);
@@ -10658,7 +10659,7 @@ label {
   -webkit-background-blend-mode: multiply;
 }
 
-/* line 227, ../scss/_custom.scss */
+/* line 218, ../scss/_custom.scss */
 .image1 {
   height: 20vh;
   width: 100%;
@@ -10667,7 +10668,7 @@ label {
   /* for IE 6 */
 }
 
-/* line 236, ../scss/_custom.scss */
+/* line 226, ../scss/_custom.scss */
 .affil-name {
   position: absolute;
   top: 50px;
@@ -10676,7 +10677,7 @@ label {
   color: white;
 }
 
-/* line 246, ../scss/_custom.scss */
+/* line 235, ../scss/_custom.scss */
 .affil-location {
   color: white;
   position: absolute;
@@ -10686,7 +10687,7 @@ label {
   font-weight: 100;
 }
 
-/* line 260, ../scss/_custom.scss */
+/* line 245, ../scss/_custom.scss */
 input[type="text"], input[type="email"], input[type="password"], input[type="number"], select {
   border: none;
   border-bottom: 2px solid #b6b6b6;
@@ -10695,12 +10696,12 @@ input[type="text"], input[type="email"], input[type="password"], input[type="num
   background: none;
 }
 
-/* line 268, ../scss/_custom.scss */
+/* line 254, ../scss/_custom.scss */
 input[type=number] {
   -webkit-text-security: disc;
 }
 
-/* line 273, ../scss/_custom.scss */
+/* line 259, ../scss/_custom.scss */
 select {
   color: #979797;
   color: rgba(182, 182, 182, 0);
@@ -10708,12 +10709,12 @@ select {
   font-weight: bold;
 }
 
-/* line 281, ../scss/_custom.scss */
+/* line 267, ../scss/_custom.scss */
 select:hover {
   background: none;
 }
 
-/* line 286, ../scss/_custom.scss */
+/* line 272, ../scss/_custom.scss */
 input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, input[type="number"]:focus, select:focus {
   border: none;
   border-bottom: 2px solid #ff5722;
@@ -10721,48 +10722,71 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
   background: none;
 }
 
-/* line 295, ../scss/_custom.scss */
+/* line 280, ../scss/_custom.scss */
 .panel {
   background-color: white;
   border-radius: .3em;
   box-shadow: 0px 1px 1px #ccc;
 }
-/* line 301, ../scss/_custom.scss */
-.panel .point-total {
+
+/* line 289, ../scss/_custom.scss */
+.tally h3 {
+  font-size: 5.5vw;
+  font-weight: 500;
+  margin-bottom: 4vw;
+}
+/* line 296, ../scss/_custom.scss */
+.tally span {
+  font-weight: 300;
+  font-size: 4vw;
+}
+/* line 302, ../scss/_custom.scss */
+.tally a {
+  color: #ff5722;
+  font-size: 4vw;
+  font-weight: 500;
+}
+/* line 309, ../scss/_custom.scss */
+.tally .point-total {
   color: #ff5722;
   font-weight: bold;
 }
+/* line 314, ../scss/_custom.scss */
+.tally .point-total span {
+  color: #444444;
+  font-weight: 500;
+}
 
-/* line 308, ../scss/_custom.scss */
+/* line 322, ../scss/_custom.scss */
 .button {
   transition: background-color .75s easy, color .75s ease;
   color: white;
   background-color: #ff5722;
 }
 
-/* line 316, ../scss/_custom.scss */
+/* line 329, ../scss/_custom.scss */
 .button:hover, .button:focus {
   transition: background-color .75s easy, color .75s ease;
   color: white;
   background-color: #e64a19;
 }
 
-/* line 324, ../scss/_custom.scss */
+/* line 336, ../scss/_custom.scss */
 .button:active {
   color: #e64a19;
   background-color: white;
 }
 
-/* line 331, ../scss/_custom.scss */
+/* line 342, ../scss/_custom.scss */
 .item-list {
   list-style-type: none;
   margin-left: 0;
 }
-/* line 336, ../scss/_custom.scss */
+/* line 347, ../scss/_custom.scss */
 .item-list .view-icon {
   margin-top: -0.25em;
 }
-/* line 342, ../scss/_custom.scss */
+/* line 352, ../scss/_custom.scss */
 .item-list li {
   padding: 8px 0 12px 0;
   /*
@@ -10772,13 +10796,13 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
   display: inline-block;
   width: 100%;
 }
-/* line 354, ../scss/_custom.scss */
+/* line 363, ../scss/_custom.scss */
 .item-list a {
   font-weight: 500;
   padding: 12px 0;
   font-style: italic;
 }
-/* line 362, ../scss/_custom.scss */
+/* line 369, ../scss/_custom.scss */
 .item-list a .item-name {
   color: #ff5722;
   /*
@@ -10786,29 +10810,29 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
   */
   font-weight: bold;
 }
-/* line 373, ../scss/_custom.scss */
+/* line 378, ../scss/_custom.scss */
 .item-list a .item-price {
   font-weight: bold;
   font-size: .9em;
   color: #444444;
 }
-/* line 379, ../scss/_custom.scss */
+/* line 384, ../scss/_custom.scss */
 .item-list a .item-price .view-item-button {
   background-color: #ff5722;
   color: white;
   padding: .3em .4em .2em .4em;
 }
-/* line 387, ../scss/_custom.scss */
+/* line 392, ../scss/_custom.scss */
 .item-list .other {
   font-style: italic;
 }
-/* line 391, ../scss/_custom.scss */
+/* line 396, ../scss/_custom.scss */
 .item-list .other .item-price {
   font-weight: bold;
   font-size: .9em;
   color: #444444;
 }
-/* line 401, ../scss/_custom.scss */
+/* line 404, ../scss/_custom.scss */
 .item-list .reedem-button {
   margin-bottom: 0;
   padding: .3em .6em;
@@ -10819,82 +10843,78 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
   line-height: 1em;
 }
 /* line 416, ../scss/_custom.scss */
-.item-list .points-cost {
-  font-weight: bold;
-}
-/* line 421, ../scss/_custom.scss */
 .item-list .reward-reedem-button {
   padding: .5em .6em .5em .6em;
   margin-bottom: 0;
   text-transform: uppercase;
 }
 
-/* line 432, ../scss/_custom.scss */
+/* line 424, ../scss/_custom.scss */
 input[type="checkbox"] {
   padding: 0;
   margin: 0;
   appearance: none;
 }
 
-/* line 438, ../scss/_custom.scss */
+/* line 431, ../scss/_custom.scss */
 .switch input:checked + label {
   background: none repeat scroll 0% 0% #ff5722;
 }
 
-/* line 443, ../scss/_custom.scss */
+/* line 436, ../scss/_custom.scss */
 .server-prompt {
   color: #ff5722;
 }
 
-/* line 450, ../scss/_custom.scss */
+/* line 441, ../scss/_custom.scss */
 .your-points {
   color: white;
   font-weight: bold;
   font-style: italic;
 }
 
-/* line 457, ../scss/_custom.scss */
+/* line 448, ../scss/_custom.scss */
 .item-modal {
   padding: 0;
 }
-/* line 460, ../scss/_custom.scss */
+/* line 452, ../scss/_custom.scss */
 .item-modal .item-modal-content {
   padding: 1.875rem;
 }
-/* line 465, ../scss/_custom.scss */
+/* line 457, ../scss/_custom.scss */
 .item-modal .pairing-title {
   color: #ff5722;
   font-weight: 800;
 }
-/* line 471, ../scss/_custom.scss */
+/* line 463, ../scss/_custom.scss */
 .item-modal .close-reveal-modal {
   color: white;
 }
 
-/* line 477, ../scss/_custom.scss */
+/* line 469, ../scss/_custom.scss */
 .item-redeemed {
   color: #ff5722;
   font-weight: bold;
 }
 
-/* line 483, ../scss/_custom.scss */
+/* line 475, ../scss/_custom.scss */
 .share-section {
   height: 21vh;
 }
-/* line 488, ../scss/_custom.scss */
+/* line 479, ../scss/_custom.scss */
 .share-section .share-section-block {
   line-height: 10vh;
 }
-/* line 492, ../scss/_custom.scss */
+/* line 483, ../scss/_custom.scss */
 .share-section .share-section-block img {
   vertical-align: middle;
   display: inline-block;
   width: 100%;
-  height: 15vh;
+  height: auto;
   width: auto;
 }
 
-/* line 504, ../scss/_custom.scss */
+/* line 494, ../scss/_custom.scss */
 .progress {
   padding-bottom: 1.25em;
   margin-top: .5em;
@@ -10902,7 +10922,7 @@ input[type="checkbox"] {
   background-color: #a4a4a4;
   border: none;
 }
-/* line 511, ../scss/_custom.scss */
+/* line 502, ../scss/_custom.scss */
 .progress .meter {
   color: white;
   padding-left: .5em;
@@ -10913,18 +10933,18 @@ input[type="checkbox"] {
   font-weight: bold;
 }
 
-/* line 524, ../scss/_custom.scss */
+/* line 514, ../scss/_custom.scss */
 .progress.alert .meter {
   background: #ff5722;
 }
 
-/* line 529, ../scss/_custom.scss */
+/* line 519, ../scss/_custom.scss */
 .button.disabled {
   background-color: #444444;
   opacity: .20;
 }
 
-/* line 535, ../scss/_custom.scss */
+/* line 525, ../scss/_custom.scss */
 .button.disabled:hover {
   background-color: #444444;
   opacity: .20;
