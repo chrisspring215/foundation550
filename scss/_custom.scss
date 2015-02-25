@@ -11,30 +11,13 @@ $darkest-primaryTextColor:       #444;
 $lighter-secondaryTextColor:     #727272;
 $lightest-dividerColor:          #B6B6B6;
 
-@-webkit-keyframes displayNone {
-  0%   { opacity: 1; height: 100vh;}
-  75%  { opacity: 1; height: 100vh;}
-  100% { opacity: 0; height: 0vh}
-}
-@-moz-keyframes displayNone {
-  0%   { opacity: 1; height: 100vh;}
-  75%  { opacity: 1; height: 100vh;}
-  100% { opacity: 0; height: 0vh}
-}
-@-o-keyframes displayNone {
-  0%   { opacity: 1; height: 100vh;}
-  75%  { opacity: 1; height: 100vh;}
-  100% { opacity: 0; height: 0vh}
-}
-@keyframes displayNone {
-  0%   { opacity: 1; height: 100vh;}
-  75%  { opacity: 1; height: 100vh;}
-  100% { opacity: 0; height: 0vh}
-}
+
+
 
 .index-background
 {
 	margin: 0;
+	padding-top: 4vh;
 	height: 93vh;
 	background: url(../img/home-page-background.png) no-repeat center center fixed; 
 	-webkit-background-size: cover;
@@ -50,6 +33,17 @@ $lightest-dividerColor:          #B6B6B6;
 		font-weight: bold;
 		color: $white-textPrimaryColor;
 	}
+
+	.main-welcome
+	{
+		font-size: 9vw;
+		line-height: 9.5vw;
+	}
+
+	p
+	{
+		margin-top: 6vw;
+	}
 }
 
 
@@ -59,10 +53,35 @@ $lightest-dividerColor:          #B6B6B6;
 	font-family: $logo-font;
 }
 
+@-webkit-keyframes displayNone {
+  0%   { opacity: 1; height: 100vh; width: 100%;}
+  75%  { opacity: 1; height: 100vh; width: 100%;}
+  99%  { width: 100%;}
+  100% { opacity: 0; height: 0vh; width: 0%;}
+}
+@-moz-keyframes displayNone {
+  0%   { opacity: 1; height: 100vh; width: 100%;}
+  75%  { opacity: 1; height: 100vh; width: 100%;}
+  99%  { width: 100%;}
+  100% { opacity: 0; height: 0vh; width: 0%;}
+}
+@-o-keyframes displayNone {
+  0%   { opacity: 1; height: 100vh; width: 100%;}
+  75%  { opacity: 1; height: 100vh; width: 100%;}
+  99%  { width: 100%;}
+  100% { opacity: 0; height: 0vh; width: 0%;}
+}
+@keyframes displayNone {
+  0%   { opacity: 1; height: 100vh; width: 100%;}
+  75%  { opacity: 1; height: 100vh; width: 100%;}
+  99%  { width: 100%;}
+  100% { opacity: 0; height: 0vh; width: 0%;}
+}
+
 .cover-screen, .rewards-message
 {
 
-	width: 100vw;
+
 	position: absolute;
 	z-index: 10;
 	background-position: center;
@@ -76,6 +95,7 @@ $lightest-dividerColor:          #B6B6B6;
   	-o-animation:      displayNone 3s; /* Opera 12+ */
   	animation:         displayNone 3s; /* IE 10+, Fx 29+ */
 }
+
 
 .cover-screen
 {
@@ -314,7 +334,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 	.view-icon
 	{
-		height:4vw;
+
 		margin-top: -.25em;
 	}
 
@@ -399,7 +419,8 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 	.reward-reedem-button
 	{
-		padding: .5em .6em .3em .6em;
+
+		padding: .5em .6em .5em .6em;
 		margin-bottom: 0;
 		text-transform: uppercase;
 	}
