@@ -41,7 +41,7 @@ $lightest-dividerColor:          #B6B6B6;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	background-color: #666;
+	background-color: #444;
 	background-blend-mode: overlay;
 	-webkit-background-blend-mode: overlay;
 	
@@ -320,8 +320,11 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 	li
 	{
-		padding: 12px 0;
+		
+		padding: 8px 0 12px 0;
+		/*
 		margin: 0;
+		*/
 		border-bottom: 2px solid $lightest-dividerColor;
 		display: inline-block;
 		width: 100%;
@@ -330,15 +333,21 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	a
 	{
 		font-weight: 500;
-		padding-top:3em;
+
+		padding:12px 0;
+
 		font-style: italic;
 
 		.item-name
 		{
 			color: $orange-primaryColor;
+			/*
 			padding: .5em 0;
+			*/
 			font-weight: bold;
 		}
+
+		
 
 		.item-price
 		{
@@ -352,6 +361,17 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 				color: $white-textPrimaryColor;
 				padding: .3em .4em .2em .4em;
 			}
+		}
+	}
+	.other
+	{
+		font-style: italic;
+
+		.item-price
+		{
+			font-weight: bold;
+			font-size: .9em;
+			color: $darkest-primaryTextColor;
 		}
 	}
 

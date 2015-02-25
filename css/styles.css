@@ -10466,7 +10466,7 @@ th.hide-for-touch {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-color: #666;
+  background-color: #444;
   background-blend-mode: overlay;
   -webkit-background-blend-mode: overlay;
 }
@@ -10724,114 +10724,128 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 /* line 322, ../scss/_custom.scss */
 .item-list li {
-  padding: 12px 0;
+  padding: 8px 0 12px 0;
+  /*
   margin: 0;
+  */
   border-bottom: 2px solid #b6b6b6;
   display: inline-block;
   width: 100%;
 }
-/* line 331, ../scss/_custom.scss */
+/* line 334, ../scss/_custom.scss */
 .item-list a {
   font-weight: 500;
-  padding-top: 3em;
+  padding: 12px 0;
   font-style: italic;
 }
-/* line 337, ../scss/_custom.scss */
+/* line 342, ../scss/_custom.scss */
 .item-list a .item-name {
   color: #ff5722;
+  /*
   padding: .5em 0;
+  */
   font-weight: bold;
 }
-/* line 344, ../scss/_custom.scss */
+/* line 353, ../scss/_custom.scss */
 .item-list a .item-price {
   font-weight: bold;
   font-size: .9em;
   color: #444444;
 }
-/* line 350, ../scss/_custom.scss */
+/* line 359, ../scss/_custom.scss */
 .item-list a .item-price .view-item-button {
   background-color: #ff5722;
   color: white;
   padding: .3em .4em .2em .4em;
 }
-/* line 361, ../scss/_custom.scss */
+/* line 367, ../scss/_custom.scss */
+.item-list .other {
+  font-style: italic;
+}
+/* line 371, ../scss/_custom.scss */
+.item-list .other .item-price {
+  font-weight: bold;
+  font-size: .9em;
+  color: #444444;
+}
+/* line 381, ../scss/_custom.scss */
 .item-list .reedem-button {
   margin-bottom: 0;
   padding: .3em .6em;
 }
-/* line 370, ../scss/_custom.scss */
+/* line 390, ../scss/_custom.scss */
 .item-list .select-button {
   vertical-align: middle;
   line-height: 1em;
 }
-/* line 376, ../scss/_custom.scss */
+/* line 396, ../scss/_custom.scss */
 .item-list .points-cost {
   font-weight: bold;
 }
-/* line 381, ../scss/_custom.scss */
+/* line 401, ../scss/_custom.scss */
 .item-list .reward-reedem-button {
   padding: .5em .6em .3em .6em;
   margin-bottom: 0;
   text-transform: uppercase;
 }
 
-/* line 391, ../scss/_custom.scss */
+/* line 411, ../scss/_custom.scss */
 input[type="checkbox"] {
   padding: 0;
   margin: 0;
   appearance: none;
 }
 
-/* line 397, ../scss/_custom.scss */
+/* line 417, ../scss/_custom.scss */
 .switch input:checked + label {
   background: none repeat scroll 0% 0% #ff5722;
 }
 
-/* line 402, ../scss/_custom.scss */
+/* line 422, ../scss/_custom.scss */
 .server-prompt {
   color: #ff5722;
 }
 
-/* line 409, ../scss/_custom.scss */
+/* line 429, ../scss/_custom.scss */
 .your-points {
   color: white;
   font-weight: bold;
   font-style: italic;
 }
 
-/* line 416, ../scss/_custom.scss */
+/* line 436, ../scss/_custom.scss */
 .item-modal {
   padding: 0;
 }
-/* line 419, ../scss/_custom.scss */
+/* line 439, ../scss/_custom.scss */
 .item-modal .item-modal-content {
   padding: 1.875rem;
 }
-/* line 424, ../scss/_custom.scss */
+/* line 444, ../scss/_custom.scss */
 .item-modal .pairing-title {
   color: #ff5722;
   font-weight: 800;
 }
-/* line 430, ../scss/_custom.scss */
+/* line 450, ../scss/_custom.scss */
 .item-modal .close-reveal-modal {
   color: white;
 }
 
-/* line 436, ../scss/_custom.scss */
+/* line 456, ../scss/_custom.scss */
 .item-redeemed {
   color: #ff5722;
   font-weight: bold;
 }
 
-/* line 442, ../scss/_custom.scss */
+/* line 462, ../scss/_custom.scss */
 .share-section {
   height: 21vh;
 }
-/* line 447, ../scss/_custom.scss */
+/* line 467, ../scss/_custom.scss */
 .share-section .share-section-block {
   line-height: 10vh;
 }
-/* line 451, ../scss/_custom.scss */
+/* line 471, ../scss/_custom.scss */
 .share-section .share-section-block img {
   vertical-align: middle;
   display: inline-block;
@@ -10840,7 +10854,7 @@ input[type="checkbox"] {
   width: auto;
 }
 
-/* line 463, ../scss/_custom.scss */
+/* line 483, ../scss/_custom.scss */
 .progress {
   padding-bottom: 1.25em;
   margin-top: .5em;
@@ -10848,7 +10862,7 @@ input[type="checkbox"] {
   background-color: #a4a4a4;
   border: none;
 }
-/* line 470, ../scss/_custom.scss */
+/* line 490, ../scss/_custom.scss */
 .progress .meter {
   color: white;
   padding-left: .5em;
@@ -10859,18 +10873,18 @@ input[type="checkbox"] {
   font-weight: bold;
 }
 
-/* line 483, ../scss/_custom.scss */
+/* line 503, ../scss/_custom.scss */
 .progress.alert .meter {
   background: #ff5722;
 }
 
-/* line 488, ../scss/_custom.scss */
+/* line 508, ../scss/_custom.scss */
 .button.disabled {
   background-color: #444444;
   opacity: .20;
 }
 
-/* line 494, ../scss/_custom.scss */
+/* line 514, ../scss/_custom.scss */
 .button.disabled:hover {
   background-color: #444444;
   opacity: .20;
