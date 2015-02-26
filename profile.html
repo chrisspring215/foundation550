@@ -13,15 +13,15 @@
 
     <nav class="global-nav top-bar" data-topbar role="navigation">
       <a class="left global-nav-button logo" href="index.html">Jetti</a>
-      <a class="right global-nav-button" href="">Terms</a>
-      <a class="right global-nav-button" href="">About</a>
+      <a class="right global-nav-button" href="profile.html">Profile</a>
+      <a class="right global-nav-button" href="places.html">Places</a>
     </nav>
 
 
     <main>
     <div class="row">
       <div class="small-12 columns">
-        <h2>Sign Up</h2>
+        <h2>Edit your information.</h2>
       </div>
     </div>
 
@@ -29,11 +29,11 @@
       <div class="small-12 columns">
         <div class="row">
           <label class="small-12 columns">Your Name
-            <input type="text" placeholder="i.e. Collins, Chris">
+            <input type="text" placeholder="Chris Collins">
           </label>
 
           <label class="small-12 columns">Your Email
-            <input type="email" placeholder="i.e. you@somewhere.com">
+            <input type="email" placeholder="chris@myemail.com">
           </label>
             <div class="small-12 columns">
               <label>Your Birthday</label>
@@ -97,7 +97,7 @@
             </div>
 
           </div>
-          <label class="small-12 columns">Choose a Password
+          <label class="small-12 columns">Change Password
             <input type="text" placeholder="itsAsecret2everybody">
           </label>
           <label class="small-12 columns">Verify Password
@@ -108,13 +108,24 @@
           <!--
             <input type="submit" class="button small expand" value="SIGN ME UP">
           -->
-            <a class="button expand" href="1st-time-rewards-presentation-page.html">SIGN ME UP</a>
+            <a class="button expand" href="return-visit-rewards-page.html">SAVE</a>
+            <a class="right button tiny alert"  data-reveal-id="deleteAccount" href="#">DELETE MY ACCOUNT</a>
           </div>    
 
         </div>
       </div>
     </div>
   </main>
+
+  <!-- Modals -->
+
+  <div id="deleteAccount" class="reveal-modal" data-reveal>
+    <h2>You are about to delete your Jetti account.</h2>
+    <p class="lead">By clicking 'DELETE ACCOUNT', you will delete your user account and remove youself from any loyalty programs you have joined.</p>
+    <p><strong>Any points you have obtained will be permently deleted.</strong></p>
+    <a class="close-reveal-modal button expand">NO WAY, GET ME OUT OF HERE</a>
+    <a class="button alert expand" href="deleted-account.html">DELETE ACCOUNT</a>
+  </div>
     
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>

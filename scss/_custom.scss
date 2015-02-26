@@ -527,6 +527,35 @@ input[type="checkbox"]
 	opacity: .20;
 }
 
+.place-list
+{
+	h4
+	{
+		color: $orange-primaryColor;
+		font-weight: 800;
+		font-style: italic;
+	}
+	.location
+	{
+		font-weight: bold;
+		font-size: 4vw;
+		line-height: 4.5vw;
 
+		.city
+		{
+			font-weight: 200;
+		}
+	}
+	.points
+	{
+		font-weight: bold;
+		font-size: 7vw;
+		line-height: 7vw;
+	}
+	.city
+	{
+		font-weight: thin;
+	}
+}
 
 

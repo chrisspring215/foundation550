@@ -10949,3 +10949,30 @@ input[type="checkbox"] {
   background-color: #444444;
   opacity: .20;
 }
+
+/* line 533, ../scss/_custom.scss */
+.place-list h4 {
+  color: #ff5722;
+  font-weight: 800;
+  font-style: italic;
+}
+/* line 539, ../scss/_custom.scss */
+.place-list .location {
+  font-weight: bold;
+  font-size: 4vw;
+  line-height: 4.5vw;
+}
+/* line 545, ../scss/_custom.scss */
+.place-list .location .city {
+  font-weight: 200;
+}
+/* line 550, ../scss/_custom.scss */
+.place-list .points {
+  font-weight: bold;
+  font-size: 7vw;
+  line-height: 7vw;
+}
+/* line 556, ../scss/_custom.scss */
+.place-list .city {
+  font-weight: thin;
+}
