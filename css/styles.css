@@ -10949,24 +10949,55 @@ input[type="checkbox"] {
   color: #ff5722;
   font-weight: 800;
   font-style: italic;
+  font-size: 10vw;
 }
-/* line 532, ../scss/_custom.scss */
+/* line 533, ../scss/_custom.scss */
 .place-list .location {
-  font-weight: bold;
   font-size: 4vw;
   line-height: 4.5vw;
 }
-/* line 538, ../scss/_custom.scss */
+/* line 539, ../scss/_custom.scss */
+.place-list .location a {
+  font-weight: bold;
+  color: #ff5722;
+}
+/* line 545, ../scss/_custom.scss */
 .place-list .location .city {
   font-weight: 200;
+  font-style: italic;
 }
-/* line 543, ../scss/_custom.scss */
+/* line 551, ../scss/_custom.scss */
 .place-list .points {
   font-weight: bold;
   font-size: 7vw;
   line-height: 7vw;
 }
-/* line 549, ../scss/_custom.scss */
+/* line 557, ../scss/_custom.scss */
+.place-list .points img {
+  height: 7vw;
+  line-height: 7vw;
+}
+/* line 563, ../scss/_custom.scss */
 .place-list .city {
   font-weight: thin;
+}
+
+/* line 569, ../scss/_custom.scss */
+.places-divider {
+  background-color: #ff5722;
+  padding: 0 0 20px 0;
+}
+
+/* line 575, ../scss/_custom.scss */
+iframe {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 0;
+}
+
+/* line 582, ../scss/_custom.scss */
+.back-button {
+  position: fixed;
+  margin-bottom: 0;
+  bottom: 0;
 }

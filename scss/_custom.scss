@@ -527,16 +527,24 @@ input[type="checkbox"]
 		color: $orange-primaryColor;
 		font-weight: 800;
 		font-style: italic;
+		font-size: 10vw;
 	}
 	.location
 	{
-		font-weight: bold;
+		
 		font-size: 4vw;
 		line-height: 4.5vw;
+
+		a
+		{
+			font-weight: bold;
+			color: $orange-primaryColor;
+		}
 
 		.city
 		{
 			font-weight: 200;
+			font-style: italic;
 		}
 	}
 	.points
@@ -544,6 +552,12 @@ input[type="checkbox"]
 		font-weight: bold;
 		font-size: 7vw;
 		line-height: 7vw;
+
+		img
+		{
+			height: 7vw;
+			line-height: 7vw;
+		}
 	}
 	.city
 	{
@@ -551,4 +565,23 @@ input[type="checkbox"]
 	}
 }
 
+.places-divider
+{
+	background-color: $orange-primaryColor;
+	padding: 0 0 20px 0;
+}
+
+iframe
+{
+	width: 100vw;
+	height: 100vh;
+	padding-top: 0;
+}
+
+.back-button
+{
+	position: fixed;
+	margin-bottom: 0;
+	bottom: 0;
+}
 
