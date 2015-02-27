@@ -21,9 +21,6 @@ $lightest-dividerColor:          #B6B6B6;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	background-color: #333;
-	background-blend-mode: overlay;
-	-webkit-background-blend-mode: overlay;
 	
 	.main-welcome, p, label
 	{
@@ -208,10 +205,6 @@ label
 {
 	height: 72px;
 	background: url(../img/backpat.png);
-	background-color: $orange-dark-darkPrimaryColor;
-
-	background-blend-mode: multiply;
-	-webkit-background-blend-mode: multiply;
 }
 
 .image1
