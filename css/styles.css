@@ -10725,7 +10725,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 /* line 245, ../scss/_custom.scss */
 .tally h3 {
-  font-size: 5.5vw;
+  font-size: 4vw;
   font-weight: 500;
   margin-bottom: 4vw;
 }
@@ -10744,43 +10744,45 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 .tally .point-total {
   color: #ff5722;
   font-weight: bold;
+  font-size: 5vw;
 }
-/* line 266, ../scss/_custom.scss */
+/* line 267, ../scss/_custom.scss */
 .tally .point-total span {
   color: #444444;
   font-weight: 500;
+  font-size: 5vw;
 }
 
-/* line 273, ../scss/_custom.scss */
+/* line 275, ../scss/_custom.scss */
 .button {
   transition: background-color .75s easy, color .75s ease;
   color: white;
   background-color: #ff5722;
 }
 
-/* line 279, ../scss/_custom.scss */
+/* line 281, ../scss/_custom.scss */
 .button:hover, .button:focus {
   transition: background-color .75s easy, color .75s ease;
   color: white;
   background-color: #e64a19;
 }
 
-/* line 285, ../scss/_custom.scss */
+/* line 287, ../scss/_custom.scss */
 .button:active {
   color: #e64a19;
   background-color: white;
 }
 
-/* line 290, ../scss/_custom.scss */
+/* line 292, ../scss/_custom.scss */
 .item-list {
   list-style-type: none;
   margin-left: 0;
 }
-/* line 294, ../scss/_custom.scss */
+/* line 296, ../scss/_custom.scss */
 .item-list .view-icon {
   margin-top: -0.25em;
 }
-/* line 298, ../scss/_custom.scss */
+/* line 300, ../scss/_custom.scss */
 .item-list li {
   padding: 8px 0 12px 0;
   /*
@@ -10790,13 +10792,13 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
   display: inline-block;
   width: 100%;
 }
-/* line 308, ../scss/_custom.scss */
+/* line 310, ../scss/_custom.scss */
 .item-list a {
   font-weight: 500;
   padding: 12px 0;
   font-style: italic;
 }
-/* line 313, ../scss/_custom.scss */
+/* line 315, ../scss/_custom.scss */
 .item-list a .item-name {
   color: #ff5722;
   /*
@@ -10804,102 +10806,103 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
   */
   font-weight: bold;
 }
-/* line 321, ../scss/_custom.scss */
+/* line 323, ../scss/_custom.scss */
 .item-list a .item-price {
   font-weight: bold;
   font-size: .9em;
   color: #444444;
 }
-/* line 326, ../scss/_custom.scss */
+/* line 328, ../scss/_custom.scss */
 .item-list a .item-price .view-item-button {
   background-color: #ff5722;
   color: white;
   padding: .3em .4em .2em .4em;
 }
-/* line 334, ../scss/_custom.scss */
+/* line 336, ../scss/_custom.scss */
 .item-list .other {
   font-style: italic;
 }
-/* line 337, ../scss/_custom.scss */
+/* line 339, ../scss/_custom.scss */
 .item-list .other .item-price {
   font-weight: bold;
   font-size: .9em;
   color: #444444;
 }
-/* line 344, ../scss/_custom.scss */
+/* line 346, ../scss/_custom.scss */
 .item-list .reedem-button {
   margin-bottom: 0;
   padding: .3em .6em;
 }
-/* line 349, ../scss/_custom.scss */
+/* line 351, ../scss/_custom.scss */
 .item-list .select-button {
   vertical-align: middle;
   line-height: 1em;
 }
-/* line 354, ../scss/_custom.scss */
+/* line 356, ../scss/_custom.scss */
 .item-list .reward-reedem-button {
   padding: .5em .6em .5em .6em;
   margin-bottom: 0;
   text-transform: uppercase;
 }
 
-/* line 361, ../scss/_custom.scss */
+/* line 363, ../scss/_custom.scss */
 input[type="checkbox"] {
   padding: 0;
   margin: 0;
   appearance: none;
 }
 
-/* line 367, ../scss/_custom.scss */
+/* line 369, ../scss/_custom.scss */
 .switch input:checked + label {
   background: none repeat scroll 0% 0% #ff5722;
 }
 
-/* line 371, ../scss/_custom.scss */
+/* line 373, ../scss/_custom.scss */
 .server-prompt {
   color: #ff5722;
 }
 
-/* line 375, ../scss/_custom.scss */
+/* line 377, ../scss/_custom.scss */
 .your-points {
   color: white;
   font-weight: bold;
   font-style: italic;
+  font-size: 1em;
 }
 
-/* line 381, ../scss/_custom.scss */
+/* line 384, ../scss/_custom.scss */
 .item-modal {
   padding: 0;
 }
-/* line 384, ../scss/_custom.scss */
+/* line 387, ../scss/_custom.scss */
 .item-modal .item-modal-content {
   padding: 1.875rem;
 }
-/* line 388, ../scss/_custom.scss */
+/* line 391, ../scss/_custom.scss */
 .item-modal .pairing-title {
   color: #ff5722;
   font-weight: 800;
 }
-/* line 393, ../scss/_custom.scss */
+/* line 396, ../scss/_custom.scss */
 .item-modal .close-reveal-modal {
   color: white;
 }
 
-/* line 398, ../scss/_custom.scss */
+/* line 401, ../scss/_custom.scss */
 .item-redeemed {
   color: #ff5722;
   font-weight: bold;
 }
 
-/* line 403, ../scss/_custom.scss */
+/* line 406, ../scss/_custom.scss */
 .share-section {
   height: 21vh;
 }
-/* line 406, ../scss/_custom.scss */
+/* line 409, ../scss/_custom.scss */
 .share-section .share-section-block {
   line-height: 10vh;
 }
-/* line 409, ../scss/_custom.scss */
+/* line 412, ../scss/_custom.scss */
 .share-section .share-section-block img {
   vertical-align: middle;
   display: inline-block;
@@ -10908,7 +10911,7 @@ input[type="checkbox"] {
   width: auto;
 }
 
-/* line 419, ../scss/_custom.scss */
+/* line 422, ../scss/_custom.scss */
 .progress {
   padding-bottom: 1.25em;
   margin-top: .5em;
@@ -10916,7 +10919,7 @@ input[type="checkbox"] {
   background-color: #a4a4a4;
   border: none;
 }
-/* line 426, ../scss/_custom.scss */
+/* line 429, ../scss/_custom.scss */
 .progress .meter {
   color: white;
   padding-left: .5em;
@@ -10927,77 +10930,113 @@ input[type="checkbox"] {
   font-weight: bold;
 }
 
-/* line 437, ../scss/_custom.scss */
+/* line 440, ../scss/_custom.scss */
 .progress.alert .meter {
   background: #ff5722;
 }
 
-/* line 441, ../scss/_custom.scss */
+/* line 444, ../scss/_custom.scss */
 .button.disabled {
   background-color: #444444;
   opacity: .20;
 }
 
-/* line 446, ../scss/_custom.scss */
+/* line 449, ../scss/_custom.scss */
 .button.disabled:hover {
   background-color: #444444;
   opacity: .20;
 }
 
-/* line 453, ../scss/_custom.scss */
+/* line 456, ../scss/_custom.scss */
 .place-list h4 {
   color: #ff5722;
   font-weight: 800;
   font-style: italic;
   font-size: 10vw;
 }
-/* line 460, ../scss/_custom.scss */
+/* line 463, ../scss/_custom.scss */
 .place-list .location {
   font-size: 4vw;
   line-height: 4.5vw;
 }
-/* line 464, ../scss/_custom.scss */
+/* line 467, ../scss/_custom.scss */
 .place-list .location a {
   font-weight: bold;
   color: #ff5722;
 }
-/* line 469, ../scss/_custom.scss */
+/* line 472, ../scss/_custom.scss */
 .place-list .location .city {
   font-weight: 200;
   font-style: italic;
 }
-/* line 475, ../scss/_custom.scss */
+/* line 478, ../scss/_custom.scss */
 .place-list .points {
   font-weight: bold;
   font-size: 7vw;
   line-height: 7vw;
 }
-/* line 480, ../scss/_custom.scss */
+/* line 483, ../scss/_custom.scss */
 .place-list .points img {
   height: 7vw;
   line-height: 7vw;
 }
-/* line 486, ../scss/_custom.scss */
+/* line 489, ../scss/_custom.scss */
 .place-list .city {
   font-weight: thin;
 }
 
-/* line 491, ../scss/_custom.scss */
+/* line 494, ../scss/_custom.scss */
 .places-divider {
   background-color: #ff5722;
   padding: 0 0 20px 0;
 }
 
-/* line 496, ../scss/_custom.scss */
+/* line 499, ../scss/_custom.scss */
 iframe {
   width: 100vw;
   height: 100vh;
   padding-top: 0;
 }
 
-/* line 502, ../scss/_custom.scss */
+/* line 505, ../scss/_custom.scss */
 .back-button {
   position: fixed;
   margin-bottom: 0;
   bottom: 0;
+}
+
+/* line 512, ../scss/_custom.scss */
+.shared-page {
+  background-color: #ff5722;
+}
+/* line 516, ../scss/_custom.scss */
+.shared-page .share-logo {
+  font-family: "Sansita One", cursive;
+  color: white;
+  font-size: 5vw;
+}
+/* line 523, ../scss/_custom.scss */
+.shared-page h1 {
+  font-weight: bold;
+  color: white;
+  line-height: 1em;
+}
+/* line 529, ../scss/_custom.scss */
+.shared-page h1 small {
+  color: white;
+  font-weight: 400;
+}
+/* line 537, ../scss/_custom.scss */
+.shared-page p {
+  font-weight: bold;
+  color: white;
+}
+/* line 543, ../scss/_custom.scss */
+.shared-page .button {
+  border: 2px solid white;
+  font-weight: bold;
+}
+/* line 548, ../scss/_custom.scss */
+.shared-page .tag {
+  color: white;
 }
