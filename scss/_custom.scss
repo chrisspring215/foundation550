@@ -13,7 +13,7 @@ $lightest-dividerColor: #B6B6B6;
 margin: 0;
 padding-top: 4vh;
 height: 93vh;
-background: url(../img/home-page-background.png) no-repeat center center fixed;
+background: url(../img/home-page-background.jpg) no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -453,43 +453,61 @@ opacity: .20;
 }
 .place-list
 {
-h4
-{
-color: $orange-primaryColor;
-font-weight: 800;
-font-style: italic;
-font-size: 10vw;
-}
-.location
-{
-font-size: 4vw;
-line-height: 4.5vw;
-a
-{
-font-weight: bold;
-color: $orange-primaryColor;
-}
-.city
-{
-font-weight: 200;
-font-style: italic;
-}
-}
-.points
-{
-font-weight: bold;
-font-size: 7vw;
-line-height: 7vw;
-img
-{
-height: 7vw;
-line-height: 7vw;
-}
-}
-.city
-{
-font-weight: thin;
-}
+	h4
+	{
+	color: $orange-primaryColor;
+	font-weight: 800;
+	font-style: italic;
+	font-size: 1.75em;
+	}
+	.location
+	{
+	font-size: .90em;
+	line-height: 1.1em;
+	a
+	{
+	font-weight: bold;
+	color: $orange-primaryColor;
+	}
+	.city
+	{
+	font-weight: 200;
+	font-style: italic;
+	}
+	}
+	.points
+	{
+	color: $orange-primaryColor;
+	font-weight: bold;
+	font-size: 1.5em;
+	line-height: 1em;
+		img
+		{
+		height: 1.25em;
+		line-height: 1.25em;
+		}
+	}
+	.city
+	{
+	font-weight: thin;
+	}
+	.status-message
+	{
+		font-size: .80em;
+		font-weight: bold;
+		font-style: italic;
+		color: $darkest-primaryTextColor;
+	}
+	.join-button
+	{
+		display: inline-block;
+		background-color: $orange-primaryColor;
+		color: $white-textPrimaryColor;
+		padding: .1em .5em;
+		border-radius: .3em;
+		font-style: normal;
+		font-size: .8em;
+	}
 }
 .places-divider
 {
@@ -507,6 +525,35 @@ padding-top: 0;
 position: fixed;
 margin-bottom: 0;
 bottom: 0;
+}
+
+.location-modal
+{
+	padding: 0;
+
+	img
+	{
+		margin: 0;
+		padding: 0;
+		border: none;
+	}
+
+	.location-name
+	{
+		margin-bottom: 0;
+		font-weight: 700;
+		color: $orange-primaryColor;
+		font-style: italic;
+	}
+
+	.city
+	{
+		color: $darkest-primaryTextColor;
+		font-weight: thin;
+		font-style: italic;
+	}
+
+
 }
 
 .shared-page
